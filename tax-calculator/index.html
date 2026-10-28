@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<meta id="meta-desc" name="description" content="Free 2025 income tax calculator: federal tax, Social Security, Medicare, effective & marginal rates and take-home pay by filing status. State tax not included." />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="keywords" content="mortgage calculator, mortgage payment calculator with taxes and insurance, loan calculator, personal loan calculator, compound interest calculator, income tax calculator 2025, take home pay calculator, 50/30/20 budget calculator, tip calculator, percentage calculator, BMI calculator" />
+<meta name="author" content="FinanceCalculators" />
+<meta name="geo.region" content="US" />
+<meta name="language" content="English" />
+<link id="canonical" rel="canonical" href="https://khanjaansher96-debug.github.io/finance-calculator-tool-website/tax-calculator/" />
+<meta name="theme-color" content="#f8f9f8" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0e120f" media="(prefers-color-scheme: dark)" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="FinanceCalculators" />
+<meta property="og:locale" content="en_US" />
+<meta id="og-url" property="og:url" content="https://khanjaansher96-debug.github.io/finance-calculator-tool-website/" />
+<meta id="og-title" property="og:title" content="Free Finance Calculators — Mortgage, Loan, Tax & More" />
+<meta id="og-desc" property="og:description" content="Free US finance calculators, each on its own page. Mortgage, loan, tax, investment, budget, tip, percentage & BMI — instant results in USD, no sign-up." />
+<meta name="twitter:card" content="summary" />
+<meta id="tw-title" name="twitter:title" content="Free Finance Calculators — Mortgage, Loan, Tax & More" />
+<meta id="tw-desc" name="twitter:description" content="Free US finance calculators with formulas & worked examples. Instant results in USD, no sign-up." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b5fff'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='white'%3E%24%3C/text%3E%3C/svg%3E" />
+<title>Income Tax Calculator 2025 — Federal Tax & Take-Home Pay | Finance Calculators</title>
+<style>
+:root{--bg:#f8f9f8;--surface:#ffffff;--surface-2:#f2f5f2;--ink:#17211a;--ink-soft:#4a5a4f;--muted:#687a6e;--line:#e2e8e2;--green:#177245;--green-deep:#14532d;--green-soft:#e6f4ea;--gold-soft:#fdf6e0;--red:#b3402e;--radius:14px}
+@media (prefers-color-scheme: dark){:root{--bg:#0e120f;--surface:#171d18;--surface-2:#1c241d;--ink:#edf3ee;--ink-soft:#b8c7bb;--muted:#8ea393;--line:#2b362d;--green:#4cc27a;--green-deep:#86efac;--green-soft:#1d3325;--gold-soft:#2e2812;--red:#e07a63}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}html,body{overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.num,.money{font-variant-numeric:tabular-nums}
+.wrap{max-width:1020px;margin:0 auto;padding:0 20px 56px;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+a{color:var(--green)}
+/* Header */
+.site-head{border-bottom:1px solid var(--line);background:var(--surface)}
+.site-head-in{max-width:1020px;margin:0 auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between}
+.brand{font-weight:800;font-size:19px;color:var(--ink);text-decoration:none;letter-spacing:-.01em}.brand span{color:var(--green)}
+.mainnav{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14.5px;font-weight:600}.mainnav a{color:var(--ink-soft);text-decoration:none}.mainnav a:hover,.mainnav a[aria-current="page"]{color:var(--green)}
+/* Page routing */
+.page-view{display:none}.page-view.active{display:block}
+.crumb{font-size:13.5px;color:var(--muted);margin:20px 0 10px}.crumb a{font-weight:600;text-decoration:none}.crumb a:hover{text-decoration:underline}
+/* Intro / Home */
+.intro{padding:32px 0 4px;text-align:center}
+.intro h1{font-size:clamp(28px,4vw,40px);line-height:1.15;letter-spacing:-.02em;font-weight:800;margin:0 0 8px}
+.intro h1 em{font-style:normal;color:var(--green)}
+.lede{font-size:16px;color:var(--ink-soft);max-width:60ch;margin:0 auto}
+.trust{margin-top:10px;font-size:13.5px;color:var(--muted);font-weight:600}.trust span{margin:0 6px}
+.page-head{padding:8px 0 4px}.page-head h1,.page-head h2{font-size:clamp(26px,3.6vw,36px);line-height:1.15;letter-spacing:-.02em;margin:0 0 6px}.page-head p{color:var(--ink-soft);margin:0;max-width:65ch}
+/* Cards grid — home */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:24px 0 8px}
+@media(max-width:640px){.cards{grid-template-columns:1fr}}
+.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;text-decoration:none;color:var(--ink)}
+.card:hover{border-color:var(--green)}
+.card h2{font-size:19px;margin:0 0 5px}.card p{margin:0 0 10px;color:var(--ink-soft);font-size:14.5px;line-height:1.5}
+.card .go{color:var(--green);font-weight:700;font-size:14.5px}
+.card .tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--green);background:var(--green-soft);border-radius:999px;padding:3px 9px;margin-bottom:10px}
+/* Calculator */
+.calc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:16px}
+.calc-head{padding:22px 26px 2px}.calc-head h2{margin:0 0 4px;font-size:24px;font-weight:750;letter-spacing:-.01em}.calc-head p{margin:0;color:var(--ink-soft);font-size:15px}
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:start}
+.inputs{padding:18px 26px 26px;display:flex;flex-direction:column;gap:16px}
+.results{padding:18px 26px 26px;background:var(--surface-2);border-left:1px solid var(--line);display:flex;flex-direction:column;gap:16px}
+@media(min-width:681px){.results{position:sticky;top:12px}}
+.field label{display:flex;justify-content:space-between;align-items:baseline;font-size:13.5px;font-weight:700;margin-bottom:6px;gap:8px}
+.field label .hint{font-weight:500;color:var(--muted);font-size:12px;text-align:right}
+.input-row{display:flex;align-items:stretch;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);overflow:hidden}
+.input-row:focus-within{border-color:var(--green)}
+.input-row .prefix,.input-row .suffix{display:flex;align-items:center;padding:0 11px;color:var(--muted);font-weight:600;font-size:15px;background:var(--surface-2)}
+.input-row input{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:inherit;font-size:17px;font-weight:600;padding:11px 12px;outline:none;font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--green);margin-top:6px;height:28px}
+select{width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:inherit;font-size:16px;font-weight:600;padding:11px 12px;outline:none;min-width:0}select:focus{border-color:var(--green)}
+.two-col{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}.two-col>.field,.inputs>.field{min-width:0}
+.big-result{background:var(--green-deep);color:#f0fdf4;border-radius:12px;padding:18px 20px;text-align:center}
+@media (prefers-color-scheme: dark){.big-result{color:#0d1810}}
+.big-result .k{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+.big-result .v{font-size:clamp(32px,4vw,42px);font-weight:700;line-height:1.1;margin:4px 0 2px}
+.big-result .s{font-size:13.5px;opacity:.92}
+.rows{display:flex;flex-direction:column}
+.row{display:flex;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px}.row:last-child{border-bottom:0}
+.row .k{color:var(--ink-soft)}.row .v{font-weight:700;text-align:right}.row.total{border-top:2px solid var(--ink);border-bottom:0;margin-top:4px;padding-top:10px}.row.total .k{color:var(--ink);font-weight:700}
+.note{font-size:13px;color:var(--ink-soft);background:var(--gold-soft);border-radius:10px;padding:10px 13px;line-height:1.5}.note b{color:var(--ink)}
+.donut-wrap{display:flex;gap:16px;align-items:center;flex-wrap:wrap}.donut{width:110px;height:110px;flex:none}
+.legend{display:flex;flex-direction:column;gap:6px;font-size:13.5px;flex:1;min-width:150px}.legend div{display:flex;align-items:center;gap:8px}.legend .sw{width:11px;height:11px;border-radius:3px;flex:none}.legend .amt{margin-left:auto;font-weight:700}
+.bar{height:12px;border-radius:6px;background:var(--line);overflow:hidden;display:flex}.bar i{display:block;height:100%}
+details.box{border:1px solid var(--line);border-radius:10px;padding:2px 14px;background:var(--surface);margin-top:10px}
+details.box summary{cursor:pointer;font-weight:700;padding:11px 0;font-size:15px}
+details.box p,details.box li{font-size:14.5px;color:var(--ink-soft)}details.box ul{margin:6px 0 12px;padding-left:20px}details.box p{margin:6px 0 12px}
+.amort-table{width:100%;border-collapse:collapse;font-size:13.5px;margin:4px 0 12px}.amort-table th,.amort-table td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}.amort-table th:first-child,.amort-table td:first-child{text-align:left}.amort-table th{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.04em}
+.chart-box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px}.chart-box h4{margin:0 0 6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.chart-box svg{width:100%;height:auto;display:block}
+.tipbtns{display:flex;gap:8px;flex-wrap:wrap}.tipbtn{flex:1;min-width:56px;min-height:44px;appearance:none;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:10px 4px;font:inherit;font-weight:700;font-size:15px;cursor:pointer}.tipbtn[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+@media (prefers-color-scheme: dark){.tipbtn[aria-pressed="true"]{color:#0d1810}}
+/* Content sections under a calculator / info pages */
+.content{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px 26px}
+.content h2{font-size:20px;margin:0 0 8px}.content h3{font-size:16px;margin:18px 0 6px}.content p,.content li{color:var(--ink-soft);font-size:15px}.content p{margin:0 0 10px}.content ul{margin:4px 0 12px;padding-left:20px}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:14px;color:var(--ink);overflow-wrap:anywhere;margin:10px 0}
+.related{margin-top:18px}.related h2{font-size:17px;margin:0 0 10px}.related-links{display:flex;flex-wrap:wrap;gap:8px}.related-links a{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:9px 15px;text-decoration:none;font-weight:600;font-size:14px;color:var(--ink)}.related-links a:hover{border-color:var(--green);color:var(--green)}
+.how{margin-top:24px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 24px;text-align:center}.how h2{font-size:18px;margin:0 0 6px}.how p{margin:0 auto;color:var(--ink-soft);font-size:14.5px;max-width:68ch}
+.prose{max-width:760px}.prose h2{font-size:20px;margin:22px 0 8px}.prose h2:first-child{margin-top:0}.prose p,.prose li{color:var(--ink-soft);font-size:15.5px}.prose ul{padding-left:20px}
+.cform{display:flex;flex-direction:column;gap:14px;max-width:560px;margin-top:16px}.cform label{font-size:13.5px;font-weight:700;display:block;margin-bottom:6px}
+.cform input,.cform textarea{width:100%;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:inherit;font-size:16px;padding:11px 12px;outline:none}.cform input:focus,.cform textarea:focus{border-color:var(--green)}
+.btn{appearance:none;border:0;background:var(--green);color:#fff;border-radius:10px;padding:12px 20px;font:inherit;font-weight:700;cursor:pointer;min-height:46px}.btn.secondary{background:var(--surface);color:var(--ink);border:1.5px solid var(--line)}
+@media (prefers-color-scheme: dark){.btn{color:#0b140d}}
+footer{margin-top:28px;border-top:1px solid var(--line);padding-top:20px;color:var(--muted);font-size:13.5px;line-height:1.6}
+.foot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:16px}@media(max-width:640px){.foot-grid{grid-template-columns:1fr 1fr}}
+.foot-grid h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink);margin:0 0 8px}.foot-grid a{display:block;color:var(--ink-soft);text-decoration:none;padding:3px 0}.foot-grid a:hover{color:var(--green)}
+footer p{margin:0;text-align:center}
+@media (max-width:680px){.calc-grid{grid-template-columns:1fr}.results{border-left:0;border-top:1px solid var(--line);position:static}.inputs,.results,.calc-head{padding-left:18px;padding-right:18px}.content{padding:18px}.intro{padding-top:24px}}
+@media (max-width:385px){.wrap{padding:0 12px 48px;padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}.two-col{grid-template-columns:1fr}.amort-table{font-size:12px}.amort-table th,.amort-table td{padding:5px 4px}.foot-grid{grid-template-columns:1fr}}
+@media (prefers-color-scheme: dark){#m-seg-pi{stroke:#4cc27a}#m-seg-tax{stroke:#e2aa3c}#m-seg-ins{stroke:#7fb3d5}#m-seg-extra{stroke:#c39bd3}}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none !important}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","name":"FinanceCalculators","description":"Free US finance calculators — mortgage, loan, investment, income tax, budget, tip, percentage and BMI.","inLanguage":"en-US"},
+{"@type":"WebApplication","name":"Free Finance Calculators","applicationCategory":"FinanceApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free US finance calculators, each on its own page: mortgage payment with taxes and insurance, loan, investment growth, 2025 federal income tax, 50/30/20 budget, tip, percentage and BMI.","featureList":"Mortgage Calculator, Loan Calculator, Investment Growth Calculator, Income Tax Estimator 2025, 50/30/20 Budget Calculator, Tip Calculator, Percentage Calculator, BMI Calculator"},
+{"@type":"ItemList","name":"Free Finance Calculators","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Mortgage Calculator","url":"#/mortgage"},
+{"@type":"ListItem","position":2,"name":"Loan Calculator","url":"#/loan"},
+{"@type":"ListItem","position":3,"name":"Investment Growth Calculator","url":"#/invest"},
+{"@type":"ListItem","position":4,"name":"Income Tax Estimator 2025","url":"#/tax"},
+{"@type":"ListItem","position":5,"name":"50/30/20 Budget Calculator","url":"#/budget"},
+{"@type":"ListItem","position":6,"name":"Tip Calculator","url":"#/tip"},
+{"@type":"ListItem","position":7,"name":"Percentage Calculator","url":"#/percent"},
+{"@type":"ListItem","position":8,"name":"BMI Calculator","url":"#/bmi"}
+]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Are these finance calculators free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. All 8 calculators are free, need no sign-up, and give instant results in your browser."}},
+{"@type":"Question","name":"How accurate is the mortgage calculator?","acceptedAnswer":{"@type":"Answer","text":"It uses the standard amortization formula lenders use and includes property tax, home insurance, HOA and PMI, so the monthly payment is a close estimate. Your lender quote may differ."}},
+{"@type":"Question","name":"Does the income tax calculator include state tax?","acceptedAnswer":{"@type":"Answer","text":"No. It estimates 2025 federal income tax and FICA only, using 2025 IRS brackets and standard deductions. State tax is not included."}},
+{"@type":"Question","name":"Is my data saved when I use a calculator?","acceptedAnswer":{"@type":"Answer","text":"No. All calculations run in your browser. Nothing you type is saved or sent anywhere."}}
+]}
+]}
+</script>
+<script>if(!location.hash){location.hash="#/tax";}</script>
+</head>
+<body>
+<header class="site-head"><div class="site-head-in">
+<a class="brand" href="#/">Finance<span>Calculators</span></a>
+<nav class="mainnav" aria-label="Main">
+<a href="#/" data-nav="home">All Calculators</a>
+<a href="#/articles" data-nav="articles">Articles Guide</a>
+<a href="#/setup" data-nav="setup">Go-Live Setup</a>
+<a href="#/about" data-nav="about">About</a>
+<a href="#/contact" data-nav="contact">Contact</a>
+<a href="#/privacy" data-nav="privacy">Privacy</a>
+<a href="#/disclaimer" data-nav="disclaimer">Disclaimer</a>
+</nav></div></header>
+
+<main class="wrap">
+
+<!-- ================= HOME ================= -->
+<section class="page-view" id="page-home">
+  <div class="intro">
+    <h1>Free Finance <em>Calculators</em></h1>
+    <p class="lede">Free online calculators for the US — mortgage payment with taxes &amp; insurance, loan payments, compound interest growth, 2025 federal income tax &amp; take-home pay, 50/30/20 budgeting, tips, percentages and BMI. Every calculator has its own page, formula and worked example. Type your numbers and get an instant, accurate result — no sign-up.</p>
+    <p class="trust"><span>✓ Free</span>·<span>✓ No sign-up</span>·<span>✓ All in USD</span>·<span>✓ Works on mobile &amp; desktop</span></p>
+  </div>
+  <div class="cards">
+    <a class="card" href="#/mortgage"><span class="tag">Most popular</span><h2>Mortgage Calculator</h2><p>Monthly payment with tax, insurance, HOA &amp; PMI, plus a year-by-year payoff schedule.</p><span class="go">Open calculator →</span></a>
+    <a class="card" href="#/loan"><span class="tag">Loans</span><h2>Loan Calculator</h2><p>Monthly payment and total interest for auto, personal or student loans — with extra-payment savings.</p><span class="go">Open calculator →</span></a>
+    <a class="card" href="#/invest"><span class="tag">Saving &amp; investing</span><h2>Investment Growth</h2><p>See how compound interest grows your money over time, with a balance-by-year chart.</p><span class="go">Open calculator →</span></a>
+    <a class="card" href="#/tax"><span class="tag">US taxes · 2025</span><h2>Income Tax Estimator</h2><p>2025 federal tax, FICA and take-home pay with a bracket-by-bracket breakdown.</p><span class="go">Open calculator →</span></a>
+    <a class="card" href="#/budget"><span class="tag">Budgeting</span><h2>50/30/20 Budget</h2><p>Split take-home pay into needs, wants and savings — and see where you stand against the rule.</p><span class="go">Open calculator →</span></a>
+    <a class="card" href="#/tip"><span class="tag">Everyday</span><h2>Tip Calculator</h2><p>Tip amount and bill split per person in seconds.</p><span class="go">Open calculator →</span></a>
+    <a class="card" href="#/percent"><span class="tag">Everyday</span><h2>Percentage Calculator</h2><p>Percent of a number, percent change, and discounts — instantly.</p><span class="go">Open calculator →</span></a>
+    <a class="card" href="#/bmi"><span class="tag">Health</span><h2>BMI Calculator</h2><p>Your BMI and the healthy weight range for your height, using CDC categories.</p><span class="go">Open calculator →</span></a>
+  </div>
+  <section class="how"><h2>How it works</h2><p>Open any calculator page, type your numbers, and the result updates instantly in your browser — nothing is saved or sent anywhere. Mortgage &amp; loan use the standard amortization formula, tax uses 2025 federal brackets, investment uses monthly compounding, and BMI uses the standard 703 formula.</p><p style="margin-top:10px"><a href="#/articles"><strong>Want to write articles about these calculators?</strong> See the Articles Guide →</a> &nbsp;·&nbsp; <a href="#/setup">Go-Live Setup (sitemap &amp; robots) →</a></p></section>
+  <div class="content"><h2>Which calculator should you use?</h2><p><strong>Buying a home?</strong> Start with the <a href="#/mortgage">Mortgage Calculator</a> to see the full monthly payment — not just principal &amp; interest, but property tax, insurance, HOA and PMI too. Then check the <a href="#/budget">50/30/20 Budget Calculator</a> to see if that payment fits your take-home pay.</p><p><strong>Borrowing money?</strong> The <a href="#/loan">Loan Calculator</a> works for auto, personal and student loans and shows how extra monthly payments cut total interest and shorten the term.</p><p><strong>Saving, investing or taxes?</strong> Use <a href="#/invest">Investment Growth</a> for compound interest, <a href="#/tax">Income Tax Estimator 2025</a> for federal tax and take-home pay, <a href="#/percent">Percentage Calculator</a> for discounts and percent change, <a href="#/tip">Tip Calculator</a> for bill splits, and <a href="#/bmi">BMI Calculator</a> for your healthy weight range.</p><h2>Frequently asked questions</h2><h3>Are these calculators free?</h3><p>Yes — all calculators are free, with no sign-up and no limit on how many calculations you run.</p><h3>Are the results accurate?</h3><p>Each page shows its formula and a worked example with the default numbers, so you can verify the result by hand. Results are estimates for education only — see the <a href="#/disclaimer">Disclaimer</a>.</p><h3>Is my data saved?</h3><p>No. Everything runs in your browser. See the <a href="#/privacy">Privacy Policy</a>.</p></div>
+</section>
+
+<!-- ================= MORTGAGE PAGE ================= -->
+<section class="page-view" id="page-mortgage">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Mortgage Calculator</p>
+  <div class="page-head"><h2>Mortgage Calculator</h1><p>See your real monthly payment — including property tax, home insurance, HOA and PMI.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="field"><label for="m-price">Home price</label><div class="input-row"><span class="prefix">$</span><input id="m-price" type="number" inputmode="decimal" value="425000" min="0" step="1000"></div><input type="range" id="m-price-r" min="50000" max="1500000" step="5000" value="425000" aria-label="Home price slider"></div>
+      <div class="two-col">
+        <div class="field"><label for="m-down-pct">Down payment <span class="hint">%</span></label><div class="input-row"><input id="m-down-pct" type="number" inputmode="decimal" value="20" min="0" max="90" step="0.5"><span class="suffix">%</span></div></div>
+        <div class="field"><label for="m-down">Down payment <span class="hint">$</span></label><div class="input-row"><span class="prefix">$</span><input id="m-down" type="number" inputmode="decimal" value="85000" min="0" step="1000"></div></div>
+      </div>
+      <div class="two-col">
+        <div class="field"><label for="m-rate">Interest rate</label><div class="input-row"><input id="m-rate" type="number" inputmode="decimal" value="6.75" min="0" max="20" step="0.05"><span class="suffix">%</span></div></div>
+        <div class="field"><label for="m-term">Loan term</label><select id="m-term"><option value="30" selected>30 years</option><option value="20">20 years</option><option value="15">15 years</option><option value="10">10 years</option></select></div>
+      </div>
+      <div class="two-col">
+        <div class="field"><label for="m-tax">Property tax <span class="hint">per year</span></label><div class="input-row"><span class="prefix">$</span><input id="m-tax" type="number" inputmode="decimal" value="4675" min="0" step="100"></div></div>
+        <div class="field"><label for="m-ins">Home insurance <span class="hint">per year</span></label><div class="input-row"><span class="prefix">$</span><input id="m-ins" type="number" inputmode="decimal" value="1800" min="0" step="50"></div></div>
+      </div>
+      <div class="field"><label for="m-hoa">HOA dues <span class="hint">per month, if any</span></label><div class="input-row"><span class="prefix">$</span><input id="m-hoa" type="number" inputmode="decimal" value="0" min="0" step="10"></div></div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k">Total monthly payment</div><div class="v money" id="m-total">$0</div><div class="s" id="m-loanline">Loan amount $0</div></div>
+      <div class="donut-wrap">
+        <svg class="donut" viewBox="0 0 42 42" role="img" aria-label="Monthly payment breakdown chart"><circle cx="21" cy="21" r="15.9" fill="none" stroke="var(--line)" stroke-width="6"></circle><circle id="m-seg-pi" cx="21" cy="21" r="15.9" fill="none" stroke="#175c36" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle><circle id="m-seg-tax" cx="21" cy="21" r="15.9" fill="none" stroke="#b97e0e" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle><circle id="m-seg-ins" cx="21" cy="21" r="15.9" fill="none" stroke="#4a7d9c" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle><circle id="m-seg-extra" cx="21" cy="21" r="15.9" fill="none" stroke="#8a5aa8" stroke-width="6" stroke-dasharray="0 100" transform="rotate(-90 21 21)"></circle></svg>
+        <div class="legend"><div><span class="sw" style="background:#175c36"></span>Principal &amp; interest<span class="amt money" id="m-pi">$0</span></div><div><span class="sw" style="background:#b97e0e"></span>Property tax<span class="amt money" id="m-tax-m">$0</span></div><div><span class="sw" style="background:#4a7d9c"></span>Insurance<span class="amt money" id="m-ins-m">$0</span></div><div><span class="sw" style="background:#8a5aa8"></span>HOA + PMI<span class="amt money" id="m-extra-m">$0</span></div></div>
+      </div>
+      <div class="rows"><div class="row"><span class="k">Total interest over the loan</span><span class="v money" id="m-totint">$0</span></div><div class="row"><span class="k">Total cost of the loan</span><span class="v money" id="m-totcost">$0</span></div><div class="row"><span class="k">Payoff date</span><span class="v" id="m-payoff">—</span></div></div>
+      <div class="note" id="m-pmi-note" hidden><b>PMI added:</b> with less than 20% down, lenders usually require private mortgage insurance. Estimated here at 0.5% of the loan per year until you reach 20% equity.</div>
+      <details class="box"><summary>Year-by-year payoff schedule</summary><table class="amort-table"><thead><tr><th>Year</th><th>Principal paid</th><th>Interest paid</th><th>Balance left</th></tr></thead><tbody id="m-amort"></tbody></table></details>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this mortgage payment calculator</h2><p>Enter the home price, your down payment, interest rate and loan term. Add yearly property tax and home insurance, plus HOA dues if any, and the total monthly payment updates instantly. This is a mortgage payment calculator with taxes and insurance — not just principal &amp; interest — so the result is closer to what you will actually pay each month.</p><h2>Formula &amp; worked example</h2><div class="formula">Monthly principal &amp; interest = P × r(1+r)ⁿ ÷ ((1+r)ⁿ − 1), where P = loan amount, r = monthly rate, n = months</div>
+  <p><b>Example (the defaults above):</b> $425,000 home, 20% down ($85,000), loan $340,000 at 6.75% for 30 years → principal &amp; interest $2,205/mo, plus $390 tax + $150 insurance = <b>$2,745/mo total</b>, with $453,884 total interest. Change any number and the result updates instantly using the same formula.</p>
+  <h2>Understanding your results</h2><p>The donut chart splits your payment into principal &amp; interest, tax, insurance and HOA + PMI. The year-by-year schedule shows how much principal you pay off each year — early payments are mostly interest, later payments are mostly principal. If you are asking “how much house can I afford?”, a common guide is to keep the total housing payment near or below 28% of your gross monthly income, then confirm it fits your budget.</p>
+  <h2>Frequently asked questions</h2><p><b>Why is my payment higher than principal &amp; interest?</b> Most US mortgage payments also include property tax and insurance held in escrow, plus HOA and PMI when they apply.</p><p><b>When does PMI stop?</b> Typically when your loan balance reaches 80% of the home's value (20% equity).</p><p><b>15-year vs 30-year mortgage — which is cheaper?</b> A 15-year term has a higher monthly payment but far less total interest. Try both terms above and compare “Total interest over the loan”.</p><p><b>Does this include closing costs?</b> No. Closing costs are one-time fees paid at purchase and are not part of the monthly payment.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/loan">Loan Calculator</a><a href="#/budget">50/30/20 Budget</a><a href="#/tax">Income Tax Estimator</a></div></div>
+</section>
+
+<!-- ================= LOAN PAGE ================= -->
+<section class="page-view" id="page-loan">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Loan Calculator</p>
+  <div class="page-head"><h2>Loan Calculator</h1><p>Monthly payment &amp; total interest for auto, personal or student loans.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="field"><label for="l-amt">Loan amount</label><div class="input-row"><span class="prefix">$</span><input id="l-amt" type="number" inputmode="decimal" value="25000" min="0" step="500"></div><input type="range" id="l-amt-r" min="1000" max="150000" step="500" value="25000" aria-label="Loan amount slider"></div>
+      <div class="two-col"><div class="field"><label for="l-rate">Interest rate (APR)</label><div class="input-row"><input id="l-rate" type="number" inputmode="decimal" value="8.5" min="0" max="40" step="0.1"><span class="suffix">%</span></div></div>
+      <div class="field"><label for="l-term">Term <span class="hint">months</span></label><div class="input-row"><input id="l-term" type="number" inputmode="numeric" value="60" min="1" max="360" step="1"><span class="suffix">mo</span></div></div></div>
+      <div class="field"><label for="l-extra">Extra payment <span class="hint">optional, per month</span></label><div class="input-row"><span class="prefix">$</span><input id="l-extra" type="number" inputmode="decimal" value="0" min="0" step="25"></div></div>
+      <div class="note">Tip: extra monthly payments cut interest and end the loan early.</div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k">Monthly payment</div><div class="v money" id="l-pay">$0</div><div class="s" id="l-termlabel">Over 60 months</div></div>
+      <div><div class="bar" role="img" aria-label="Principal versus interest share"><i id="l-bar-prin" style="background:#175c36;width:70%"></i><i id="l-bar-int" style="background:#b97e0e;width:30%"></i></div>
+      <div class="legend" style="margin-top:10px"><div><span class="sw" style="background:#175c36"></span>Principal<span class="amt money" id="l-prin">$0</span></div><div><span class="sw" style="background:#b97e0e"></span>Interest<span class="amt money" id="l-int">$0</span></div></div></div>
+      <div class="rows"><div class="row"><span class="k">Total you will repay</span><span class="v money" id="l-total">$0</span></div><div class="row"><span class="k">Interest share of every dollar</span><span class="v" id="l-share">0%</span></div><div class="row"><span class="k">Payoff date</span><span class="v" id="l-payoff">—</span></div></div>
+      <div class="note" id="l-extra-note" hidden></div>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this loan calculator</h2><p>Enter the loan amount, APR and term in months — for a car loan, personal loan or student loan. Add an optional extra monthly payment to see exactly how much interest you save and how many months earlier the loan ends. This works as an auto loan payment calculator, personal loan calculator and general amortization calculator.</p><h2>Formula &amp; worked example</h2><div class="formula">Payment = P × r(1+r)ⁿ ÷ ((1+r)ⁿ − 1) — the standard amortization formula</div><p><b>Example (defaults):</b> $25,000 at 8.5% APR for 60 months → <b>$513/mo</b>, $5,775 total interest, $30,775 total repaid.</p><h2>Frequently asked questions</h2><p><b>Does an extra payment help?</b> Yes — extra money goes to principal, so less interest accrues and the loan ends sooner. The result panel shows exactly how much you save.</p><p><b>What is the difference between APR and interest rate?</b> APR can include lender fees on top of interest. Use the APR from your loan offer for the closest payment estimate.</p><p><b>Why does a longer term cost more?</b> A longer term lowers the monthly payment but you pay interest for more months, so total interest rises.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/mortgage">Mortgage Calculator</a><a href="#/budget">50/30/20 Budget</a><a href="#/percent">Percentage Calculator</a></div></div>
+</section>
+
+<!-- ================= INVESTMENT PAGE ================= -->
+<section class="page-view" id="page-invest">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Investment Growth</p>
+  <div class="page-head"><h2>Investment Growth Calculator</h1><p>See how your money grows with compound interest over time.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="two-col"><div class="field"><label for="i-init">Starting amount</label><div class="input-row"><span class="prefix">$</span><input id="i-init" type="number" inputmode="decimal" value="10000" min="0" step="500"></div></div>
+      <div class="field"><label for="i-monthly">Monthly contribution</label><div class="input-row"><span class="prefix">$</span><input id="i-monthly" type="number" inputmode="decimal" value="500" min="0" step="25"></div></div></div>
+      <div class="two-col"><div class="field"><label for="i-years">Years invested</label><div class="input-row"><input id="i-years" type="number" inputmode="numeric" value="20" min="1" max="50" step="1"><span class="suffix">yrs</span></div></div>
+      <div class="field"><label for="i-rate">Avg. annual return</label><div class="input-row"><input id="i-rate" type="number" inputmode="decimal" value="8" min="0" max="20" step="0.25"><span class="suffix">%</span></div></div></div>
+      <input type="range" id="i-years-r" min="1" max="50" step="1" value="20" aria-label="Years invested slider">
+      <div class="note">Returns aren't guaranteed — this shows steady compounding, before taxes &amp; fees.</div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k">Value at the end</div><div class="v money" id="i-fv">$0</div><div class="s" id="i-fvline">After 20 years</div></div>
+      <div class="rows"><div class="row"><span class="k">You put in</span><span class="v money" id="i-contrib">$0</span></div><div class="row"><span class="k">Growth earned</span><span class="v money" id="i-earned">$0</span></div><div class="row"><span class="k">Growth share of final value</span><span class="v" id="i-share">0%</span></div></div>
+      <div class="chart-box"><h4>Balance by year</h4><svg id="i-chart" viewBox="0 0 320 150" role="img" aria-label="Line chart of investment balance by year"></svg></div>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this compound interest calculator</h2><p>Enter a starting amount, a monthly contribution, the years invested and an average annual return. The chart shows the balance by year, and the results split the final value into money you put in versus growth earned — the clearest way to see compound interest working over time, for example how much $10,000 plus $500 a month can grow in 10, 20 or 30 years.</p><h2>Formula &amp; worked example</h2><div class="formula">Each month: balance = balance × (1 + annual rate ÷ 12) + monthly contribution</div><p><b>Example (defaults):</b> $10,000 start + $500/mo at 8% for 20 years → you put in $130,000 and end with about <b>$343,778</b> — $213,778 of growth.</p><h2>Frequently asked questions</h2><p><b>Is 8% realistic?</b> It is a common long-term stock-market assumption, but real returns vary year to year and are never guaranteed.</p><p><b>Why does starting early matter so much?</b> Growth itself earns growth. The last years of a long timeline usually add more than the first years, even with the same monthly contribution.</p><p><b>Does this include taxes or fees?</b> No — this is growth before taxes and fees, so a real account may end lower.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/budget">50/30/20 Budget</a><a href="#/tax">Income Tax Estimator</a><a href="#/percent">Percentage Calculator</a></div></div>
+</section>
+
+<!-- ================= TAX PAGE ================= -->
+<section class="page-view" id="page-tax">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Income Tax Estimator</p>
+  <div class="page-head"><h2>Income Tax Estimator — 2025</h1><p>2025 federal tax &amp; take-home pay. State tax is not included.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="field"><label for="t-income">Gross annual income</label><div class="input-row"><span class="prefix">$</span><input id="t-income" type="number" inputmode="decimal" value="85000" min="0" step="1000"></div><input type="range" id="t-income-r" min="10000" max="400000" step="1000" value="85000" aria-label="Income slider"></div>
+      <div class="field"><label for="t-status">Filing status</label><select id="t-status"><option value="single" selected>Single</option><option value="mfj">Married filing jointly</option><option value="hoh">Head of household</option></select></div>
+      <div class="field"><label for="t-pretax">Pre-tax deductions <span class="hint">401(k), HSA, etc. per year</span></label><div class="input-row"><span class="prefix">$</span><input id="t-pretax" type="number" inputmode="decimal" value="0" min="0" step="250"></div></div>
+      <div class="note">Standard deduction applied: <b>$15,750</b> single · <b>$31,500</b> married · <b>$23,625</b> head of household (2025). The 0.9% additional Medicare tax on earnings above $200,000 (single) / $250,000 (joint) is not included.</div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k">Estimated take-home pay</div><div class="v money" id="t-takehome">$0</div><div class="s" id="t-monthly">≈ $0 per month</div></div>
+      <div class="rows"><div class="row"><span class="k">Taxable income</span><span class="v money" id="t-taxable">$0</span></div><div class="row"><span class="k">Federal income tax</span><span class="v money" id="t-fed">$0</span></div><div class="row"><span class="k">Social Security (6.2%)</span><span class="v money" id="t-ss">$0</span></div><div class="row"><span class="k">Medicare (1.45%)</span><span class="v money" id="t-med">$0</span></div><div class="row total"><span class="k">Total tax</span><span class="v money" id="t-total">$0</span></div><div class="row"><span class="k">Effective tax rate</span><span class="v" id="t-eff">0%</span></div><div class="row"><span class="k">Marginal bracket</span><span class="v" id="t-marg">0%</span></div></div>
+      <div><h4 style="margin:0 0 6px;font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)">Bracket by bracket</h4><div class="rows" id="t-brackets"></div></div>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this income tax calculator 2025</h2><p>Enter your gross annual income, filing status and any pre-tax deductions such as 401(k) or HSA contributions. You get federal income tax, Social Security, Medicare, total tax, effective and marginal rates, and estimated take-home pay per month and per paycheck — a quick take-home pay calculator using 2025 tax brackets.</p><h2>How this estimate works</h2><p>Taxable income = gross income − pre-tax deductions − the 2025 standard deduction for your filing status. Federal tax is then applied progressively through the 2025 brackets (10%, 12%, 22%, 24%, 32%, 35%, 37%). Social Security is 6.2% up to the 2025 wage base of $176,100; Medicare is 1.45%.</p><p><b>Example (defaults):</b> $85,000 single → federal tax $10,149, total tax $16,651, take-home <b>$68,349</b>, effective rate 19.6%, marginal bracket 22%.</p><h2>Frequently asked questions</h2><p><b>What is the difference between effective and marginal rate?</b> Your marginal rate is the rate on your highest dollar of income. Your effective rate — total tax divided by total income — is almost always lower.</p><p><b>Does this include state tax?</b> No. State tax is not included and varies by state. Credits are also not included.</p><p>This is an estimate only — credits, deductions and state tax can change your real result. Verify figures at IRS.gov.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/budget">50/30/20 Budget</a><a href="#/invest">Investment Growth</a><a href="#/percent">Percentage Calculator</a></div></div>
+</section>
+
+<!-- ================= BUDGET PAGE ================= -->
+<section class="page-view" id="page-budget">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; 50/30/20 Budget</p>
+  <div class="page-head"><h2>50/30/20 Budget Calculator</h1><p>Split take-home pay: 50% needs · 30% wants · 20% savings.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="field"><label for="b-income">Monthly take-home pay</label><div class="input-row"><span class="prefix">$</span><input id="b-income" type="number" inputmode="decimal" value="5200" min="0" step="100"></div><input type="range" id="b-income-r" min="1000" max="20000" step="100" value="5200" aria-label="Take-home pay slider"></div>
+      <div class="field"><label for="b-needs">What you spend on needs <span class="hint">rent, bills, groceries</span></label><div class="input-row"><span class="prefix">$</span><input id="b-needs" type="number" inputmode="decimal" value="2900" min="0" step="50"></div></div>
+      <div class="field"><label for="b-wants">What you spend on wants <span class="hint">eating out, fun, travel</span></label><div class="input-row"><span class="prefix">$</span><input id="b-wants" type="number" inputmode="decimal" value="1400" min="0" step="50"></div></div>
+      <div class="field"><label for="b-save">What you save <span class="hint">emergency fund, investing</span></label><div class="input-row"><span class="prefix">$</span><input id="b-save" type="number" inputmode="decimal" value="900" min="0" step="50"></div></div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k">Your savings rate</div><div class="v" id="b-rate">0%</div><div class="s" id="b-rate-note">Target is 20% under this rule</div></div>
+      <div class="rows"><div class="row"><span class="k">Needs — target 50%</span><span class="v money" id="b-needs-t">$0</span></div><div class="row"><span class="k">Needs — you spend</span><span class="v"><span class="money" id="b-needs-a">$0</span> <span id="b-needs-d"></span></span></div><div class="row"><span class="k">Wants — target 30%</span><span class="v money" id="b-wants-t">$0</span></div><div class="row"><span class="k">Wants — you spend</span><span class="v"><span class="money" id="b-wants-a">$0</span> <span id="b-wants-d"></span></span></div><div class="row"><span class="k">Savings — target 20%</span><span class="v money" id="b-save-t">$0</span></div><div class="row"><span class="k">Savings — you save</span><span class="v"><span class="money" id="b-save-a">$0</span> <span id="b-save-d"></span></span></div></div>
+      <div class="note" id="b-verdict"></div>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this 50/30/20 budget calculator</h2><p>Enter your monthly take-home pay, then what you actually spend on needs (rent, bills, groceries, transport), wants (eating out, entertainment, travel) and savings. The calculator compares each category with its target and tells you which one is over or under — a simple monthly budget planner based on the 50/30/20 rule popularised for paycheck budgeting.</p><h2>How the rule works</h2><p>Targets are simple: needs target = 50% of take-home pay, wants = 30%, savings = 20%. <b>Example (defaults):</b> $5,200 take-home → targets $2,600 / $1,560 / $1,040. With $900 saved, your savings rate is <b>17.3%</b>.</p><h2>Frequently asked questions</h2><p><b>What counts as a need vs a want?</b> Needs are bills you must pay to live and work. Anything you could cut without serious hardship is a want, even if you buy it every month.</p><p><b>What if my rent alone is over 50%?</b> That is common in high-cost cities. Use the rule as a direction, not a pass/fail test — lower wants first, and aim to raise the savings rate gradually.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/tax">Income Tax Estimator</a><a href="#/invest">Investment Growth</a><a href="#/loan">Loan Calculator</a></div></div>
+</section>
+
+<!-- ================= TIP PAGE ================= -->
+<section class="page-view" id="page-tip">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Tip Calculator</p>
+  <div class="page-head"><h2>Tip Calculator</h1><p>Calculate the tip and split the bill in seconds.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="field"><label for="p-bill">Bill amount</label><div class="input-row"><span class="prefix">$</span><input id="p-bill" type="number" inputmode="decimal" value="86.40" min="0" step="1"></div></div>
+      <div class="field"><label>Tip percentage</label><div class="tipbtns" id="p-tipbtns"><button class="tipbtn" data-tip="15" aria-pressed="false">15%</button><button class="tipbtn" data-tip="18" aria-pressed="false">18%</button><button class="tipbtn" data-tip="20" aria-pressed="true">20%</button><button class="tipbtn" data-tip="25" aria-pressed="false">25%</button></div><input type="range" id="p-tip-r" min="0" max="40" step="1" value="20" aria-label="Tip percentage slider" style="margin-top:12px"></div>
+      <div class="field"><label for="p-people">Split between</label><div class="input-row"><input id="p-people" type="number" inputmode="numeric" value="2" min="1" max="30" step="1"><span class="suffix">people</span></div></div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k">Each person pays</div><div class="v money" id="p-each">$0</div><div class="s" id="p-eachline">Split 2 ways</div></div>
+      <div class="rows"><div class="row"><span class="k">Tip amount</span><span class="v money" id="p-tip">$0</span></div><div class="row"><span class="k">Bill + tip total</span><span class="v money" id="p-total">$0</span></div><div class="row"><span class="k">Tip per person</span><span class="v money" id="p-tip-each">$0</span></div></div>
+      <div class="note">In the US, 15–20% is standard for table service; 20%+ for great service.</div>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this tip calculator &amp; bill split calculator</h2><p>Enter the bill, tap a tip percentage (15%, 18%, 20% or 25%) or use the slider for a custom tip, then set how many people are splitting. You get the tip amount, the bill + tip total, and exactly what each person pays — the fastest way to split a restaurant bill fairly.</p><h2>Formula &amp; example</h2><div class="formula">Tip = bill × tip % &nbsp;·&nbsp; Per person = (bill + tip) ÷ people</div><p><b>Example (defaults):</b> $86.40 bill, 20% tip, split 2 ways → tip $17.28, total $103.68, <b>$51.84 per person</b>.</p><h2>How much should you tip in the USA?</h2><p>15–20% is standard for table service, 20% or more for great service, around 10% for takeout with service, and $1–$2 per drink at a bar. Tipping is usually calculated on the pre-tax bill total.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/percent">Percentage Calculator</a><a href="#/budget">50/30/20 Budget</a></div></div>
+</section>
+
+<!-- ================= PERCENT PAGE ================= -->
+<section class="page-view" id="page-percent">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Percentage Calculator</p>
+  <div class="page-head"><h2>Percentage Calculator</h1><p>Percent of a number, percent change, and discounts — instantly.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="field"><label>1 · What is <span class="hint">X% of Y?</span></label><div class="two-col"><div class="input-row"><input id="pc-a-pct" type="number" inputmode="decimal" value="20" step="1"><span class="suffix">%</span></div><div class="input-row"><span class="prefix">of</span><input id="pc-a-of" type="number" inputmode="decimal" value="250" step="1"></div></div></div>
+      <div class="field"><label>2 · What percentage is <span class="hint">part of whole?</span></label><div class="two-col"><div class="input-row"><input id="pc-b-part" type="number" inputmode="decimal" value="45" step="1"></div><div class="input-row"><span class="prefix">of</span><input id="pc-b-whole" type="number" inputmode="decimal" value="180" step="1"></div></div></div>
+      <div class="field"><label>3 · Percentage change <span class="hint">from old to new</span></label><div class="two-col"><div class="input-row"><span class="prefix">from</span><input id="pc-c-from" type="number" inputmode="decimal" value="80" step="1"></div><div class="input-row"><span class="prefix">to</span><input id="pc-c-to" type="number" inputmode="decimal" value="100" step="1"></div></div></div>
+      <div class="note"><b>Example:</b> 20% off $250 = $50 off, you pay $200.</div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k" id="pc-a-label">20% of 250 is</div><div class="v money" id="pc-a-res">$50</div><div class="s" id="pc-a-sub">Remaining: $200</div></div>
+      <div class="rows"><div class="row"><span class="k" id="pc-b-label">45 as a % of 180</span><span class="v" id="pc-b-res">25%</span></div><div class="row"><span class="k" id="pc-c-label">Change from 80 to 100</span><span class="v" id="pc-c-res">+25%</span></div><div class="row"><span class="k">Difference</span><span class="v" id="pc-c-diff">+20</span></div></div>
+      <div class="note">5% → 6% is +1 percentage point, but a 20% increase in the rate itself.</div>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this percentage calculator</h2><p>Three tools in one: (1) what is X% of Y — for discounts, tips and tax, (2) what percentage one number is of another, and (3) percentage increase or decrease from an old value to a new one. Type any numbers and all three results update instantly.</p><h2>Formulas</h2><div class="formula">X% of Y = Y × X ÷ 100 &nbsp;·&nbsp; Part as % = part ÷ whole × 100 &nbsp;·&nbsp; % change = (new − old) ÷ |old| × 100</div><p><b>Defaults check:</b> 20% of 250 = $50 · 45 of 180 = 25% · 80 → 100 = +25% change.</p><h2>Frequently asked questions</h2><p><b>How do I calculate a discount?</b> Find X% of the price, then subtract it. Example: 20% of $250 is $50 off, so you pay $200 — shown automatically in tool 1.</p><p><b>Percentage points vs percent — what is the difference?</b> A rate moving from 5% to 6% is +1 percentage point, but a 20% increase in the rate itself.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/tip">Tip Calculator</a><a href="#/loan">Loan Calculator</a><a href="#/budget">50/30/20 Budget</a></div></div>
+</section>
+
+<!-- ================= BMI PAGE ================= -->
+<section class="page-view" id="page-bmi">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; BMI Calculator</p>
+  <div class="page-head"><h2>BMI Calculator</h1><p>Check your BMI and the healthy weight range for your height.</p></div>
+  <div class="calc"><div class="calc-grid">
+    <div class="inputs">
+      <div class="field"><label>Your height</label><div class="two-col"><div class="input-row"><input id="bm-ft" type="number" inputmode="numeric" value="5" min="0" max="8" step="1"><span class="suffix">ft</span></div><div class="input-row"><input id="bm-in" type="number" inputmode="decimal" value="9" min="0" max="11.9" step="0.5"><span class="suffix">in</span></div></div></div>
+      <div class="field"><label for="bm-lb">Your weight</label><div class="input-row"><input id="bm-lb" type="number" inputmode="decimal" value="180" min="0" step="1"><span class="suffix">lb</span></div><input type="range" id="bm-lb-r" min="70" max="450" step="1" value="180" aria-label="Weight slider"></div>
+      <div class="note">CDC categories: &lt;18.5 underweight · 18.5–24.9 healthy · 25–29.9 overweight · 30+ obese.</div>
+    </div>
+    <div class="results" aria-live="polite">
+      <div class="big-result"><div class="k">Your BMI</div><div class="v" id="bm-val">0.0</div><div class="s" id="bm-cat">—</div></div>
+      <div><div class="bar" role="img" aria-label="BMI scale" style="position:relative;overflow:visible;height:14px;border-radius:7px"><i style="background:#4a7d9c;width:19%;border-radius:7px 0 0 7px"></i><i style="background:#175c36;width:22%"></i><i style="background:#b97e0e;width:18%"></i><i style="background:#b3402e;width:41%;border-radius:0 7px 7px 0"></i><span id="bm-marker" style="position:absolute;top:-5px;width:4px;height:24px;background:var(--ink);border-radius:2px;left:40%"></span></div>
+      <div class="legend" style="margin-top:12px"><div><span class="sw" style="background:#4a7d9c"></span>Underweight<span class="amt">&lt; 18.5</span></div><div><span class="sw" style="background:#175c36"></span>Healthy<span class="amt">18.5 – 24.9</span></div><div><span class="sw" style="background:#b97e0e"></span>Overweight<span class="amt">25 – 29.9</span></div><div><span class="sw" style="background:#b3402e"></span>Obese<span class="amt">30 +</span></div></div></div>
+      <div class="rows"><div class="row"><span class="k">Healthy weight range</span><span class="v" id="bm-range">—</span></div><div class="row"><span class="k">Your weight</span><span class="v" id="bm-weight">—</span></div></div>
+    </div>
+  </div></div>
+  <div class="content"><h2>How to use this BMI calculator for adults</h2><p>Enter your height in feet and inches and your weight in pounds. You get your BMI, its CDC category for adults, and the healthy weight range for your height — useful as a quick screening check before a fuller health conversation.</p><h2>Formula &amp; example</h2><div class="formula">BMI = 703 × weight (lb) ÷ height (in)²</div><p><b>Example (defaults):</b> 5′9″ (69 in), 180 lb → BMI = 703 × 180 ÷ 69² = <b>26.6 — Overweight range</b>. Healthy range for this height is 125–169 lb. BMI is a screening tool, not a diagnosis — talk to a clinician about your individual health.</p><h2>Frequently asked questions</h2><p><b>What is a healthy BMI?</b> For adults, the CDC categories are: under 18.5 underweight, 18.5–24.9 healthy, 25–29.9 overweight, and 30 or above obese.</p><p><b>Is BMI accurate for athletes?</b> BMI does not separate muscle from fat, so very muscular people can score high without excess body fat. It is a screening measure, not a diagnosis.</p></div>
+  <div class="related"><h2>Related calculators</h2><div class="related-links"><a href="#/budget">50/30/20 Budget</a><a href="#/percent">Percentage Calculator</a></div></div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="page-view" id="page-about">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; About</p>
+  <div class="page-head"><h2>About</h1><p>Free, simple finance calculators for a US audience — each one on its own page, with the formula shown so you can check the result yourself.</p></div>
+  <div class="content prose">
+    <h2>What this site is</h2><p>A collection of everyday calculators: mortgage, loan, investment growth, federal income tax, budgeting, tip, percentage and BMI. Every tool is free, needs no sign-up, and gives an instant result in US dollars.</p>
+    <h2>How accuracy is handled</h2><ul><li>Mortgage and loan payments use the standard amortization formula used by lenders.</li><li>The tax estimator uses published 2025 IRS federal brackets and standard deductions, plus FICA rates (Social Security 6.2% up to $176,100; Medicare 1.45%).</li><li>Investment growth uses monthly compounding.</li><li>BMI uses the standard 703 formula and CDC adult categories.</li><li>Each calculator page shows its formula and a worked example with the default numbers, so the result can be verified by hand.</li></ul>
+    <h2>What this site is not</h2><p>Results are estimates for education only. They are not financial, tax or medical advice, and they do not replace a lender quote, a tax professional, or a clinician. See the <a href="#/disclaimer">Disclaimer</a> for details.</p>
+    <h2>Your numbers stay with you</h2><p>All calculations run in your browser. Nothing you type is saved or sent anywhere. See the <a href="#/privacy">Privacy Policy</a>.</p>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="page-view" id="page-contact">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Contact</p>
+  <div class="page-head"><h2>Contact</h1><p>Found a wrong result, a broken page, or want a new calculator? Email us directly or prepare your message below.</p></div>
+  <div class="content">
+    <div style="background:var(--green-soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:18px">
+      <p style="margin:0 0 4px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--green)">Official contact email</p>
+      <p style="margin:0 0 10px;font-size:18px;font-weight:800"><a href="mailto:jackefraser96@gmail.com">jackefraser96@gmail.com</a></p>
+      <p style="margin:0;color:var(--ink-soft);font-size:14.5px">This email is only for public visitor contact. For AdSense and Google Search Console, use your separate private Google account, which is not shown on this site. Click the email to open your mail app, or use the form below to prepare a message first.</p>
+      <p style="margin:12px 0 0"><a class="btn" style="display:inline-block;text-decoration:none" href="mailto:jackefraser96@gmail.com?subject=FinanceCalculators%20—%20Feedback">Email us directly →</a></p>
+    </div>
+    <form class="cform" id="contact-form">
+      <div><label for="c-name">Your name</label><input id="c-name" type="text" autocomplete="name" placeholder="Your name"></div>
+      <div><label for="c-topic">Topic</label><select id="c-topic"><option>Wrong result in a calculator</option><option>Broken page / glitch</option><option>Request a new calculator</option><option>Article / content question</option><option>Other feedback</option></select></div>
+      <div><label for="c-msg">Message</label><textarea id="c-msg" rows="5" placeholder="Which calculator, what numbers you entered, and what result you expected…"></textarea></div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap"><button type="button" class="btn" id="c-copy">Copy message</button><button type="button" class="btn secondary" id="c-download">Download message (.txt)</button><a class="btn secondary" style="text-decoration:none;display:inline-flex;align-items:center" href="mailto:jackefraser96@gmail.com">Send to jackefraser96@gmail.com</a></div>
+      <p id="c-status" style="margin:0;font-size:14px;color:var(--ink-soft)" aria-live="polite"></p>
+    </form>
+    <p style="color:var(--ink-soft);font-size:14.5px;margin-top:16px">Tip for a wrong-result report: include the calculator name and the exact numbers you entered — that makes the error reproducible and fixable.</p>
+  </div>
+</section>
+
+<!-- ================= ARTICLES GUIDE ================= -->
+<section class="page-view" id="page-articles">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Articles Guide</p>
+  <div class="page-head"><h2>Can You Write Articles About These Calculators? — Yes</h1><p>Short answer: <strong>Ji, bilkul likh sakte hain</strong> — aur likhne chahiye. Sirf calculator page Google me mushkil se rank karta hai; us ke saath helpful article/guide ho to ranking, traffic aur AdSense approval teeno ka chance barh jata hai.</p></div>
+  <div class="content prose">
+    <h2>1. Kyun articles zaroori hain?</h2>
+    <p>Calculator ek tool hai — user number daal kar chala jata hai. Article usi topic ko samjhata hai: formula kya hai, result ka matlab kya hai, aam ghalti kya hoti hai. Google aise pages ko pasand karta hai jin me tool + explanation dono hon. Isi liye har calculator page par pehle se formula aur worked example diya gaya hai — article usi ko bara, alag page bana deta hai.</p>
+    <h2>2. Kis topic par article likh sakte hain? — Har calculator par 2 ready topics</h2>
+    <ul>
+      <li><strong>Mortgage:</strong> “How Much House Can I Afford on $80,000 Salary?” · “Mortgage Payment With Taxes &amp; Insurance — Full Breakdown” — tool: <a href="#/mortgage">Mortgage Calculator</a></li>
+      <li><strong>Loan:</strong> “How Extra Payments Save Thousands on a Car Loan” · “Personal Loan vs Credit Card: Total Cost Comparison” — tool: <a href="#/loan">Loan Calculator</a></li>
+      <li><strong>Investment:</strong> “What $500 a Month Grows to in 20 Years (Compound Interest)” · “Start Investing at 25 vs 35 — Real Difference” — tool: <a href="#/invest">Investment Growth</a></li>
+      <li><strong>Tax 2025:</strong> “2025 Federal Tax Brackets Explained Simply” · “How Much Tax on $85,000 Salary? Take-Home Example” — tool: <a href="#/tax">Income Tax Estimator</a></li>
+      <li><strong>Budget:</strong> “50/30/20 Budget Rule — Complete Beginner Guide” · “How to Budget a Monthly Paycheck in the USA” — tool: <a href="#/budget">50/30/20 Budget</a></li>
+      <li><strong>Tip:</strong> “How Much to Tip in the USA — Restaurant, Bar &amp; Delivery Guide” — tool: <a href="#/tip">Tip Calculator</a></li>
+      <li><strong>Percentage:</strong> “How to Calculate Percentage Increase, Decrease &amp; Discount” — tool: <a href="#/percent">Percentage Calculator</a></li>
+      <li><strong>BMI:</strong> “What Is a Healthy BMI for Adults? Chart &amp; Range Explained” — tool: <a href="#/bmi">BMI Calculator</a> <em>(health topic — sirf general info, medical advice na dein, CDC source cite karein)</em></li>
+    </ul>
+    <h2>3. Article ka sahi structure (copy karein)</h2>
+    <ul>
+      <li><strong>H1:</strong> Ek saaf title jis me main keyword ho</li>
+      <li><strong>Intro (100 words):</strong> Masla + article me kya mile ga</li>
+      <li><strong>Calculator embed/link:</strong> Upar hi apne calculator ka link dein taake reader foran try kare</li>
+      <li><strong>H2 — Formula / Rule samjhayein</strong> aasan English me</li>
+      <li><strong>H2 — Worked example</strong> asal numbers ke saath (is site ke defaults use kar sakte hain)</li>
+      <li><strong>H2 — Aam ghaltiyan</strong> jo log karte hain</li>
+      <li><strong>H2 — FAQ</strong> 4–5 sawal, short jawab</li>
+      <li><strong>Akhir me:</strong> Disclaimer line + related calculator ke links</li>
+    </ul>
+    <p>Length: 900–1,500 words ka focused article, copy-paste bilkul nahi. Apne words me likhein, example khud calculate kar ke check karein.</p>
+    <h2>4. Kin baaton ka khayal rakhein — AdSense / Google rules</h2>
+    <ul>
+      <li>Ye <strong>finance (YMYL)</strong> topics hain — galat number mat likhein, tax data har saal IRS se update karein.</li>
+      <li>“Guaranteed profit / guaranteed approval” jaisa dawa kabhi na karein.</li>
+      <li>Har article ke neeche likhein: <em>“For education only — not financial, tax or medical advice.”</em></li>
+      <li>Doosri site ka article copy na karein — Google duplicate content ko rank nahi karta aur AdSense reject kar sakta hai.</li>
+      <li>Source cite karein: tax ke liye IRS.gov, BMI ke liye CDC.</li>
+    </ul>
+    <h2>5. Pehle konsa article likhein?</h2>
+    <p>Sab se asan aur low-competition se shuru karein: <strong>1) Tip guide, 2) Percentage guide, 3) 50/30/20 Budget guide</strong>. Phir Loan, phir Tax (Jan–Apr season), aakhir me Mortgage aur BMI ke bare articles — un par competition sab se zyada hai.</p>
+    <p style="margin-top:14px"><a href="#/setup">→ Next: Go-Live Setup dekhein — sitemap, robots aur domain ke steps</a></p>
+  </div>
+</section>
+
+<!-- ================= GO-LIVE SETUP ================= -->
+<section class="page-view" id="page-setup">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Go-Live Setup</p>
+  <div class="page-head"><h2>Go-Live Setup — Unresolved Issues Fixed as Far as a Single File Allows</h1><p>Neeche har unresolved issue ka status saaf likha hai — kya is file me fix ho gaya, aur kya sirf domain/hosting par hi ho sakta hai, us ke ready files ke saath.</p></div>
+  <div class="content prose">
+    <h2>✅ Fixed in this update</h2>
+    <ul>
+      <li><strong>Contact email add ho gaya:</strong> <a href="mailto:jackefraser96@gmail.com">jackefraser96@gmail.com</a> — Contact page, is page aur footer me maujood hai. AdSense / Search Console ke liye apna alag private Google account use karein, ye contact email nahi.</li>
+      <li><strong>Articles guide add ho gaya:</strong> <a href="#/articles">Articles Guide page</a> par har calculator ke article topics aur structure maujood hai.</li>
+      <li><strong>Sitemap aur robots ready hain:</strong> Neeche dono ka poora text diya hai — Copy button se le kar live hosting par <code>sitemap.xml</code> aur <code>robots.txt</code> file bana kar daal dein. Live GitHub Pages URL ke saath <code>khanjaansher96-debug.github.io/finance-calculator-tool-website</code> ki jagah apna domain likhein.</li>
+      <li><strong>Canonical domain-ready hai:</strong> Is site ka canonical relative (<code>./</code>) rakha gaya hai taake domain connect hote hi khud usi domain ko point kare — code dobara change nahi karna pare ga.</li>
+    </ul>
+    <h2>⚠️ Sirf live hosting par fix hoga — wajah ke saath</h2>
+    <ul>
+      <li><strong>Clean URLs (/mortgage-calculator):</strong> Ye preview ek single HTML file hai, is liye pages abhi <code>#/mortgage</code> hash route par hain. Asal clean URL ke liye hosting par har calculator ki alag HTML file ya rewrite rule chahiye — ye domain + GitHub Pages / Netlify par live karte waqt bane ga, is file ke andar mumkin nahi.</li>
+      <li><strong>Asal sitemap.xml / robots.txt files:</strong> Single file ke andar ye alag files serve nahi ho sakti, is liye neeche ready text diya hai taake live karte waqt sirf copy-paste karna pare.</li>
+    </ul>
+    <h2>robots.txt — Copy karein</h2>
+    <div class="formula" id="robots-txt">User-agent: *
+Allow: /
+
+Sitemap: https://khanjaansher96-debug.github.io/finance-calculator-tool-website/sitemap.xml</div>
+    <p><button type="button" class="btn" data-copy="robots-txt">Copy robots.txt</button></p>
+    <h2>sitemap.xml — Copy karein (domain badal kar)</h2>
+    <div class="formula" id="sitemap-txt">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/mortgage-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/loan-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/investment-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/tax-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/budget-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/tip-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/percentage-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/bmi-calculator&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/about&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/contact&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/privacy-policy&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/disclaimer&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://khanjaansher96-debug.github.io/finance-calculator-tool-website/terms&lt;/loc&gt;&lt;/url&gt;
+&lt;/urlset&gt;</div>
+    <p><button type="button" class="btn" data-copy="sitemap-txt">Copy sitemap.xml</button> <span id="copy-status" style="font-size:14px;color:var(--ink-soft)" aria-live="polite"></span></p>
+    <h2>Live karne ke baad ki checklist</h2>
+    <ul>
+      <li>Domain connect karein, HTTPS on confirm karein</li>
+      <li>Upar wali 2 files hosting ke root me daalein, khanjaansher96-debug.github.io/finance-calculator-tool-website apne domain se badlein</li>
+      <li>Google Search Console me <a href="mailto:jackefraser96@gmail.com">jackefraser96@gmail.com</a> wale Google account se site add karein aur sitemap submit karein</li>
+      <li>Phir AdSense me apne alag private Google account se apply karein — About, Contact (email ke saath), Privacy, Disclaimer, Terms pehle se maujood hain</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= PRIVACY ================= -->
+<section class="page-view" id="page-privacy">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Privacy Policy</p>
+  <div class="page-head"><h2>Privacy Policy</h1><p>Last updated: October 27, 2026</p></div>
+  <div class="content prose">
+    <h2>What we collect</h2><p>Nothing. These calculators run entirely in your browser. The numbers you type are never saved, stored, or sent to a server by this site, and there is no sign-up, account, or user database.</p>
+    <h2>Cookies</h2><p>This site itself sets no cookies. If advertising (such as Google AdSense) or analytics are added in the future, those third-party services may set their own cookies to serve and measure ads or visits, under their own privacy policies. This page will be updated before or when that happens.</p>
+    <h2>Advertising &amp; Google AdSense</h2><p>When ads are enabled on this site, third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites. Google's use of advertising cookies enables Google and its partners to serve ads based on your visits to this site and/or other sites on the Internet. You can opt out of personalised advertising by visiting <a href="https://adssettings.google.com" rel="noopener" target="_blank">Google Ads Settings</a>, or opt out of some third-party vendors' cookies at <a href="https://www.aboutads.info/choices/" rel="noopener" target="_blank">aboutads.info/choices</a>. We do not control the cookies set by advertisers; they are governed by the advertiser's own privacy policy.</p>
+    <h2>Third-party links</h2><p>Links to external sites (for example IRS.gov) are provided for reference. We are not responsible for the privacy practices of those sites.</p>
+    <h2>Children</h2><p>This site is a general-audience finance tool and is not directed at children under 13.</p>
+    <h2>Changes</h2><p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+    <h2>Questions</h2><p>Email <a href="mailto:jackefraser96@gmail.com">jackefraser96@gmail.com</a> or use the <a href="#/contact">Contact page</a> to send a privacy question.</p>
+  </div>
+</section>
+
+<!-- ================= DISCLAIMER ================= -->
+<section class="page-view" id="page-disclaimer">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Disclaimer</p>
+  <div class="page-head"><h2>Disclaimer</h1><p>Last updated: October 27, 2026</p></div>
+  <div class="content prose">
+    <h2>Estimates only</h2><p>Every result on this site is an estimate provided for general education. Calculators use standard formulas and published 2025 US federal figures, but your real mortgage, loan, tax, investment or health outcome depends on details a simple calculator cannot capture.</p>
+    <h2>Not professional advice</h2><ul><li><b>Not financial advice:</b> mortgage, loan, budget and investment results do not consider your full financial situation.</li><li><b>Not tax advice:</b> the tax estimator excludes state tax, credits, and the 0.9% additional Medicare tax above the statutory thresholds. Verify at IRS.gov or with a tax professional.</li><li><b>Not medical advice:</b> BMI is a screening measure only and is not a diagnosis.</li></ul>
+    <h2>Accuracy</h2><p>We work to keep formulas and figures correct and current, but we cannot guarantee that every result is error-free or that figures remain current after publication. Always confirm important numbers with the lender, the IRS, or the relevant professional before making a decision.</p>
+  </div>
+</section>
+
+<!-- ================= TERMS ================= -->
+<section class="page-view" id="page-terms">
+  <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Terms of Use</p>
+  <div class="page-head"><h2>Terms of Use</h1><p>Last updated: October 27, 2026</p></div>
+  <div class="content prose">
+    <h2>Using the calculators</h2><p>The calculators on this site are free for personal use. By using them you agree that results are estimates for education only (see the <a href="#/disclaimer">Disclaimer</a>) and that decisions you make based on them are your own responsibility.</p>
+    <h2>Acceptable use</h2><ul><li>Do not attempt to disrupt, overload, or misuse the site.</li><li>Do not present results from this site as a lender quote, official tax figure, or professional advice.</li></ul>
+    <h2>Availability</h2><p>The site is provided “as is”, without warranties of any kind. Pages and calculators may change or be removed at any time.</p>
+    <h2>Changes to these terms</h2><p>Updated terms will be posted on this page with a new date. Continued use of the site after a change means you accept the updated terms.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-grid">
+    <div><h3>Calculators</h3><a href="#/mortgage">Mortgage Calculator</a><a href="#/loan">Loan Calculator</a><a href="#/invest">Investment Growth</a><a href="#/tax">Income Tax Estimator</a><a href="#/budget">50/30/20 Budget</a><a href="#/tip">Tip Calculator</a><a href="#/percent">Percentage Calculator</a><a href="#/bmi">BMI Calculator</a></div>
+    <div><h3>Site</h3><a href="#/">All Calculators (Home)</a><a href="#/articles">Articles Guide</a><a href="#/setup">Go-Live Setup</a><a href="#/about">About</a><a href="#/contact">Contact</a><a href="mailto:jackefraser96@gmail.com">jackefraser96@gmail.com</a></div>
+    <div><h3>Legal</h3><a href="#/privacy">Privacy Policy</a><a href="#/disclaimer">Disclaimer</a><a href="#/terms">Terms of Use</a></div>
+  </div>
+  <p>Contact: <a href="mailto:jackefraser96@gmail.com">jackefraser96@gmail.com</a> · Estimates for education only — not financial, tax or medical advice. Tax figures use 2025 IRS brackets; verify at IRS.gov.</p>
+</footer>
+</main>
+
+<script>
+(function(){
+"use strict";
+var $=function(id){return document.getElementById(id);};
+function num(id){var v=parseFloat($(id).value);return isFinite(v)&&v>0?v:0;}
+function numAllow(id){var v=parseFloat($(id).value);return isFinite(v)?v:0;}
+function usd(v,dec){dec=(dec===undefined?0:dec);return "$"+Math.max(0,v).toLocaleString("en-US",{minimumFractionDigits:dec,maximumFractionDigits:dec});}
+function pct(v){return (Math.round(v*10)/10).toLocaleString("en-US")+"%";}
+function monthYear(m){var d=new Date();d.setMonth(d.getMonth()+m);return d.toLocaleDateString("en-US",{month:"long",year:"numeric"});}
+function on(id,ev,fn){$(id).addEventListener(ev,fn);}
+function syncPair(nId,rId,fn){on(nId,"input",function(){var r=$(rId),v=parseFloat($(nId).value);if(isFinite(v)){if(v>parseFloat(r.max))r.max=v;r.value=v;}fn();});on(rId,"input",function(){$(nId).value=$(rId).value;fn();});}
+document.querySelectorAll('input[type="number"]').forEach(function(el){el.addEventListener("change",function(){var v=parseFloat(el.value);if(!isFinite(v))return;var min=parseFloat(el.getAttribute("min")),max=parseFloat(el.getAttribute("max"));var c=v;if(isFinite(min)&&c<min)c=min;if(isFinite(max)&&c>max)c=max;if(c!==v){el.value=c;el.dispatchEvent(new Event("input",{bubbles:true}));}});});
+
+/* ---------- Page routing: every calculator & info page has its own URL (#/mortgage, #/tax, #/about…) ---------- */
+var TITLES={home:"Free Finance Calculators — Mortgage, Loan, Tax & More",mortgage:"Mortgage Calculator — Payment with Taxes & Insurance",loan:"Loan Calculator — Monthly Payment, Interest & Payoff",invest:"Investment Growth Calculator — Compound Interest Calculator",tax:"Income Tax Calculator 2025 — Federal Tax & Take-Home Pay",budget:"50/30/20 Budget Calculator — Needs, Wants & Savings",tip:"Tip Calculator — Tip & Bill Split Calculator",percent:"Percentage Calculator — Percent Of, Change & Discount",bmi:"BMI Calculator — BMI & Healthy Weight Range for Adults",about:"About — Free Finance Calculators",contact:"Contact — Free Finance Calculators",privacy:"Privacy Policy — Free Finance Calculators",disclaimer:"Disclaimer — Free Finance Calculators",terms:"Terms of Use — Free Finance Calculators",articles:"Can You Write Articles About These Calculators? — Topics & Guide",setup:"Go-Live Setup — Sitemap, Robots & Domain Checklist"};
+var DESCS={home:"Free US finance calculators — mortgage payment with taxes & insurance, loan, compound interest, 2025 income tax, 50/30/20 budget, tip, percentage & BMI. Instant results in USD, no sign-up.",mortgage:"Free mortgage payment calculator with taxes, insurance, HOA & PMI. Monthly payment, total interest, payoff date & year-by-year schedule. Example: $425k home = $2,745/mo.",loan:"Free loan calculator for auto, personal & student loans. Monthly payment, total interest & payoff date — plus how much extra payments save you.",invest:"Free compound interest & investment growth calculator. See how a starting amount plus monthly contributions grow over 1–50 years, with a balance-by-year chart.",tax:"Free 2025 income tax calculator: federal tax, Social Security, Medicare, effective & marginal rates and take-home pay by filing status. State tax not included.",budget:"Free 50/30/20 budget calculator. Split take-home pay into 50% needs, 30% wants & 20% savings and see where you stand against the rule.",tip:"Free tip calculator & bill split calculator. Tip amount, total and per-person cost in seconds — 15%, 18%, 20%, 25% or any custom tip.",percent:"Free percentage calculator: what is X% of Y, what percent one number is of another, percentage increase/decrease and discounts — instantly.",bmi:"Free BMI calculator for adults. Your BMI, CDC category and the healthy weight range for your height, using the standard 703 formula.",about:"About FinanceCalculators — free US finance calculators with formulas and worked examples on every page.",contact:"Contact FinanceCalculators at jackefraser96@gmail.com — report a wrong result, a broken page, or request a new calculator.",privacy:"Privacy Policy — these calculators run in your browser; nothing you type is saved or sent anywhere.",disclaimer:"Disclaimer — calculator results are estimates for education only, not financial, tax or medical advice.",terms:"Terms of Use for the free finance calculators on this site.",articles:"Yes, you can write articles about mortgage, loan, tax, budget, tip, percentage, investment and BMI calculators. Ready topics, article structure and AdSense-safe rules.",setup:"Go-live setup: contact email fixed, ready-to-copy sitemap.xml and robots.txt, canonical note, and what only live hosting with clean URLs can fix."};
+var ALIAS={investment:"invest",percentage:"percent",home2:"home"};
+function routeName(){
+  var h=(location.hash||"").replace(/^#\/?/,"").split("?")[0].trim();
+  if(!h) return "home";
+  if(ALIAS[h]) h=ALIAS[h];
+  /* Backward compatibility with old links like #loan */
+  return TITLES[h]?h:"home";
+}
+function showPage(){
+  var name=routeName();
+  document.querySelectorAll(".page-view").forEach(function(p){p.classList.remove("active");});
+  var el=$("page-"+name); if(el) el.classList.add("active");
+  document.title=TITLES[name]||TITLES.home;
+  var md=$("meta-desc"); if(md) md.setAttribute("content",DESCS[name]||DESCS.home);
+  var ogT=$("og-title"); if(ogT) ogT.setAttribute("content",document.title);
+  var ogD=$("og-desc"); if(ogD) ogD.setAttribute("content",DESCS[name]||DESCS.home);
+  var twT=$("tw-title"); if(twT) twT.setAttribute("content",document.title);
+  var twD=$("tw-desc"); if(twD) twD.setAttribute("content",DESCS[name]||DESCS.home);
+  /* Domain-ready: the canonical in <head> is the relative "./", which resolves
+     against whatever domain hosts the site — connecting a custom domain later
+     needs no rebuild or code change. */
+  document.querySelectorAll(".mainnav a").forEach(function(a){if(a.getAttribute("data-nav")===name)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current");});
+  try{window.scrollTo({top:0,left:0,behavior:"instant"});}catch(e){window.scrollTo(0,0);}
+}
+window.addEventListener("hashchange",showPage);
+
+/* ---------- Mortgage ---------- */
+function donut(segs){var ids=["m-seg-pi","m-seg-tax","m-seg-ins","m-seg-extra"];var total=segs.reduce(function(a,b){return a+b;},0)||1;var off=0;segs.forEach(function(s,i){var len=(s/total)*100;var el=$(ids[i]);el.setAttribute("stroke-dasharray",Math.max(0,len-0.7)+" "+(100-Math.max(0,len-0.7)));el.setAttribute("stroke-dashoffset",-off);off+=len;});}
+function calcMortgage(changed){
+  var price=num("m-price");var downPct=numAllow("m-down-pct"),down=num("m-down");
+  if(changed==="pct"){down=price*downPct/100;$("m-down").value=Math.round(down);}
+  else if(changed==="amt"){downPct=price>0?(down/price)*100:0;$("m-down-pct").value=Math.round(downPct*10)/10;}
+  else if(changed==="price"){down=price*downPct/100;$("m-down").value=Math.round(down);}
+  if(price>0&&down>price){down=price;if(changed==="amt"){$("m-down").value=Math.round(down);$("m-down-pct").value=100;}}
+  var loan=Math.max(0,price-down);var rate=Math.max(0,numAllow("m-rate"))/100/12;var n=parseInt($("m-term").value,10)*12;
+  var pi=rate>0?loan*rate/(1-Math.pow(1+rate,-n)):(n>0?loan/n:0);
+  var taxM=num("m-tax")/12,insM=num("m-ins")/12,hoa=num("m-hoa");
+  var pmi=(price>0&&down/price<0.20&&loan>0)?loan*0.005/12:0;
+  var total=pi+taxM+insM+hoa+pmi;
+  $("m-total").textContent=usd(total);$("m-loanline").textContent="Loan amount "+usd(loan)+" · "+usd(down)+" down";
+  $("m-pi").textContent=usd(pi);$("m-tax-m").textContent=usd(taxM);$("m-ins-m").textContent=usd(insM);$("m-extra-m").textContent=usd(hoa+pmi);
+  $("m-pmi-note").hidden=!(pmi>0);donut([pi,taxM,insM,hoa+pmi]);
+  var totInt=Math.max(0,pi*n-loan);$("m-totint").textContent=usd(totInt);$("m-totcost").textContent=usd(loan+totInt);$("m-payoff").textContent=loan>0?monthYear(n):"—";
+  var bal=loan,rows="",yP=0,yI=0;
+  for(var mth=1;mth<=n&&bal>0.01;mth++){var interest=bal*rate;var prin=Math.min(pi-interest,bal);bal-=prin;yP+=prin;yI+=interest;if(mth%12===0||mth===n){rows+="<tr><td>Year "+Math.ceil(mth/12)+"</td><td>"+usd(yP)+"</td><td>"+usd(yI)+"</td><td>"+usd(bal)+"</td></tr>";yP=0;yI=0;}}
+  $("m-amort").innerHTML=rows||"<tr><td colspan='4'>Enter a loan amount to see the schedule.</td></tr>";
+}
+["m-rate","m-term","m-tax","m-ins","m-hoa"].forEach(function(id){on(id,"input",function(){calcMortgage();});on(id,"change",function(){calcMortgage();});});
+on("m-down-pct","input",function(){calcMortgage("pct");});on("m-down","input",function(){calcMortgage("amt");});syncPair("m-price","m-price-r",function(){calcMortgage("price");});
+
+/* ---------- Loan ---------- */
+function loanSim(amt,apr,months,extra){var r=apr/100/12;var base=r>0?amt*r/(1-Math.pow(1+r,-months)):(months>0?amt/months:0);var bal=amt,tI=0,m=0;while(bal>0.01&&m<1200){var interest=bal*r;var pay=Math.min(base+extra,bal+interest);bal-=(pay-interest);tI+=interest;m++;if(base+extra<=interest&&extra===0&&r>0&&m>months)break;}return{base:base,months:m,totalInt:tI,total:amt+tI};}
+function calcLoan(){var amt=num("l-amt"),apr=Math.max(0,numAllow("l-rate"));var months=Math.max(1,Math.round(num("l-term")));var extra=num("l-extra");var res=loanSim(amt,apr,months,extra);var plain=loanSim(amt,apr,months,0);
+$("l-pay").textContent=usd(res.base+extra);$("l-termlabel").textContent=extra>0?"Paid off in "+res.months+" months with extra payments":"Over "+months+" months";
+$("l-prin").textContent=usd(amt);$("l-int").textContent=usd(res.totalInt);$("l-total").textContent=usd(res.total);
+var share=res.total>0?(res.totalInt/res.total)*100:0;$("l-share").textContent=pct(share);$("l-bar-prin").style.width=(100-share)+"%";$("l-bar-int").style.width=share+"%";$("l-payoff").textContent=amt>0?monthYear(res.months):"—";
+var note=$("l-extra-note");if(extra>0&&plain.totalInt>res.totalInt){note.hidden=false;note.innerHTML="<b>Extra payments save you "+usd(plain.totalInt-res.totalInt)+" in interest</b> and end the loan "+(plain.months-res.months)+" months early.";}else{note.hidden=true;}}
+["l-rate","l-term","l-extra"].forEach(function(id){on(id,"input",calcLoan);});syncPair("l-amt","l-amt-r",calcLoan);
+
+/* ---------- Investment ---------- */
+function calcInvest(){var init=num("i-init"),monthly=num("i-monthly");var years=Math.min(50,Math.max(1,Math.round(num("i-years"))));var r=Math.max(0,numAllow("i-rate"))/100/12;var bal=init,yearly=[init];
+for(var y=0;y<years;y++){for(var m=0;m<12;m++){bal=bal*(1+r)+monthly;}yearly.push(bal);}
+var contrib=init+monthly*12*years;var earned=bal-contrib;
+$("i-fv").textContent=usd(bal);$("i-fvline").textContent="After "+years+(years===1?" year":" years");$("i-contrib").textContent=usd(contrib);$("i-earned").textContent=usd(earned);$("i-share").textContent=bal>0?pct((earned/bal)*100):"0%";
+var W=320,H=150,pL=8,pR=8,pT=14,pB=20;var max=Math.max.apply(null,yearly)||1;
+var pts=yearly.map(function(v,i){var x=pL+(W-pL-pR)*(years===0?0:i/years);var yy=pT+(H-pT-pB)*(1-v/max);return[Math.round(x*10)/10,Math.round(yy*10)/10];});
+var line=pts.map(function(p,i){return(i===0?"M":"L")+p[0]+","+p[1];}).join(" ");var area=line+" L"+pts[pts.length-1][0]+","+(H-pB)+" L"+pts[0][0]+","+(H-pB)+" Z";
+$("i-chart").innerHTML='<path d="'+area+'" fill="var(--green-soft)"></path><path d="'+line+'" fill="none" stroke="var(--green)" stroke-width="2.5" stroke-linejoin="round"></path><text x="'+pL+'" y="'+(H-6)+'" font-size="10" fill="var(--muted)">Today</text><text x="'+(W-pR)+'" y="'+(H-6)+'" font-size="10" fill="var(--muted)" text-anchor="end">Year '+years+'</text><text x="'+(W-pR)+'" y="11" font-size="10.5" font-weight="600" fill="var(--ink)" text-anchor="end">'+usd(max)+'</text>';}
+["i-init","i-monthly","i-rate"].forEach(function(id){on(id,"input",calcInvest);});syncPair("i-years","i-years-r",calcInvest);
+
+/* ---------- Tax ---------- */
+var BRACKETS={single:{ded:15750,edges:[11925,48475,103350,197300,250525,626350]},mfj:{ded:31500,edges:[23850,96950,206700,394600,501050,751600]},hoh:{ded:23625,edges:[17000,64850,103350,197300,250475,626350]}};var RATES=[0.10,0.12,0.22,0.24,0.32,0.35,0.37];
+function calcTax(){var income=num("t-income");var status=$("t-status").value;var cfg=BRACKETS[status];var pretax=Math.min(num("t-pretax"),income);var taxable=Math.max(0,income-pretax-cfg.ded);var fed=0,prev=0,rows="",marginal=0;
+for(var i=0;i<RATES.length;i++){var top=(i<cfg.edges.length)?cfg.edges[i]:Infinity;if(taxable>prev){var inB=Math.min(taxable,top)-prev;var tax=inB*RATES[i];fed+=tax;marginal=RATES[i]*100;rows+='<div class="row"><span class="k">'+Math.round(RATES[i]*100)+'% on '+usd(prev)+(top===Infinity?'+':' – '+usd(top))+'</span><span class="v money">'+usd(tax)+'</span></div>';}prev=top;}
+var ss=Math.min(income,176100)*0.062;var med=income*0.0145;var total=fed+ss+med;var take=income-total;
+$("t-takehome").textContent=usd(take);$("t-monthly").textContent="≈ "+usd(take/12)+" per month · "+usd(take/26)+" per biweekly paycheck";$("t-taxable").textContent=usd(taxable);$("t-fed").textContent=usd(fed);$("t-ss").textContent=usd(ss);$("t-med").textContent=usd(med);$("t-total").textContent=usd(total);$("t-eff").textContent=income>0?pct((total/income)*100):"0%";$("t-marg").textContent=taxable>0?Math.round(marginal)+"%":"0%";$("t-brackets").innerHTML=rows||'<div class="row"><span class="k">No taxable income at this level</span><span class="v money">$0</span></div>';}
+on("t-pretax","input",calcTax);on("t-status","change",calcTax);syncPair("t-income","t-income-r",calcTax);
+
+/* ---------- Budget ---------- */
+function delta(actual,target,lower){var d=actual-target;if(Math.abs(d)<1)return '<span style="color:var(--green);font-weight:700">on target</span>';var good=lower?d<0:d>0;var word=lower?(d>0?"over":"under"):(d>0?"above":"below");return '<span style="color:'+(good?"var(--green)":"var(--red)")+';font-weight:700">'+usd(Math.abs(d))+" "+word+'</span>';}
+function calcBudget(){var inc=num("b-income");var needs=num("b-needs"),wants=num("b-wants"),save=num("b-save");
+$("b-needs-t").textContent=usd(inc*0.5);$("b-wants-t").textContent=usd(inc*0.3);$("b-save-t").textContent=usd(inc*0.2);
+$("b-needs-a").textContent=usd(needs);$("b-needs-d").innerHTML=inc>0?delta(needs,inc*0.5,true):"";$("b-wants-a").textContent=usd(wants);$("b-wants-d").innerHTML=inc>0?delta(wants,inc*0.3,true):"";$("b-save-a").textContent=usd(save);$("b-save-d").innerHTML=inc>0?delta(save,inc*0.2,false):"";
+var rate=inc>0?(save/inc)*100:0;$("b-rate").textContent=pct(rate);var v=$("b-verdict");
+if(inc===0){v.textContent="Enter your monthly take-home pay to see your split.";}
+else if(rate>=20){v.innerHTML="<b>You are hitting the savings target.</b> If needs are also near 50%, this budget is in the shape the rule aims for.";}
+else if(needs>inc*0.6){v.innerHTML="<b>Needs are crowding everything out.</b> At "+pct((needs/inc)*100)+" of take-home pay, fixed costs leave little room — the biggest lever is housing or transport cost.";}
+else if(wants>inc*0.35){v.innerHTML="<b>Wants are the leak.</b> At "+pct((wants/inc)*100)+" of take-home pay, trimming wants by "+usd(wants-inc*0.3)+" a month would move that money into savings.";}
+else{v.innerHTML="<b>Close.</b> You are saving "+pct(rate)+" against a 20% target — a gap of "+usd(Math.max(0,inc*0.2-save))+" a month.";}}
+["b-needs","b-wants","b-save"].forEach(function(id){on(id,"input",calcBudget);});syncPair("b-income","b-income-r",calcBudget);
+
+/* ---------- Tip ---------- */
+var tipPct=20;
+function calcTip(){var bill=num("p-bill");var people=Math.max(1,Math.round(num("p-people")));var tip=bill*tipPct/100;var total=bill+tip;$("p-tip").textContent=usd(tip,2);$("p-total").textContent=usd(total,2);$("p-each").textContent=usd(total/people,2);$("p-tip-each").textContent=usd(tip/people,2);$("p-eachline").textContent=people===1?"Just you — no split":"Split "+people+" ways · "+tipPct+"% tip";}
+document.querySelectorAll("#p-tipbtns .tipbtn").forEach(function(b){b.addEventListener("click",function(){tipPct=parseInt(b.getAttribute("data-tip"),10);$("p-tip-r").value=tipPct;document.querySelectorAll("#p-tipbtns .tipbtn").forEach(function(x){x.setAttribute("aria-pressed","false");});b.setAttribute("aria-pressed","true");calcTip();});});
+on("p-tip-r","input",function(){tipPct=parseInt($("p-tip-r").value,10)||0;document.querySelectorAll("#p-tipbtns .tipbtn").forEach(function(x){x.setAttribute("aria-pressed",parseInt(x.getAttribute("data-tip"),10)===tipPct?"true":"false");});calcTip();});
+on("p-bill","input",calcTip);on("p-people","input",calcTip);
+
+/* ---------- Percentage ---------- */
+function fmtN(v){return v.toLocaleString("en-US",{maximumFractionDigits:2});}
+function usdS(v,dec){return v<0?"−"+usd(Math.abs(v),dec):usd(v,dec);}
+function calcPercent(){var p=numAllow("pc-a-pct"),of=num("pc-a-of");var res=of*p/100;$("pc-a-label").textContent=fmtN(p)+"% of "+fmtN(of)+" is";$("pc-a-res").textContent=usdS(res,Math.abs(res)%1?2:0);$("pc-a-sub").textContent="Remaining after taking "+fmtN(p)+"% off: "+usdS(of-res,Math.abs(of-res)%1?2:0);
+var part=num("pc-b-part"),whole=num("pc-b-whole");$("pc-b-label").textContent=fmtN(part)+" as a % of "+fmtN(whole);$("pc-b-res").textContent=whole>0?pct((part/whole)*100):"—";
+var from=numAllow("pc-c-from"),to=numAllow("pc-c-to");$("pc-c-label").textContent="Change from "+fmtN(from)+" to "+fmtN(to);var chg=from!==0?((to-from)/Math.abs(from))*100:0;$("pc-c-res").textContent=from!==0?(chg>=0?"+":"−")+pct(Math.abs(chg)).replace("-",""):"—";var diff=to-from;$("pc-c-diff").textContent=(diff>=0?"+":"−")+fmtN(Math.abs(diff));}
+["pc-a-pct","pc-a-of","pc-b-part","pc-b-whole","pc-c-from","pc-c-to"].forEach(function(id){on(id,"input",calcPercent);});
+
+/* ---------- BMI ---------- */
+function calcBMI(){var inches=num("bm-ft")*12+numAllow("bm-in");var lb=num("bm-lb");
+if(inches<=0||lb<=0){$("bm-val").textContent="—";$("bm-cat").textContent="Enter your height and weight";$("bm-range").textContent="—";$("bm-weight").textContent="—";return;}
+var bmi=703*lb/(inches*inches);$("bm-val").textContent=(Math.round(bmi*10)/10).toFixed(1);
+var cat=bmi<18.5?"Underweight range":bmi<25?"Healthy range":bmi<30?"Overweight range":"Obese range";$("bm-cat").textContent=cat+" for an adult";
+var lo=18.5*inches*inches/703,hi=24.9*inches*inches/703;$("bm-range").textContent=Math.round(lo)+" – "+Math.round(hi)+" lb";$("bm-weight").textContent=Math.round(lb)+" lb at "+Math.floor(inches/12)+"′"+Math.round(inches%12)+"″";
+var pos=Math.min(97,Math.max(1,((bmi-13)/(42-13))*100));$("bm-marker").style.left="calc("+pos+"% - 2px)";}
+["bm-ft","bm-in"].forEach(function(id){on(id,"input",calcBMI);});syncPair("bm-lb","bm-lb-r",calcBMI);
+
+/* ---------- Setup page: copy sitemap / robots ---------- */
+document.querySelectorAll("[data-copy]").forEach(function(btn){btn.addEventListener("click",function(){var el=$(btn.getAttribute("data-copy"));if(!el)return;var t=el.textContent;var st=$("copy-status");var done=function(){if(st)st.textContent="Copied — paste it into the file on your hosting.";};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done).catch(function(){if(st)st.textContent="Copy blocked — select the text and copy manually.";});}else{if(st)st.textContent="Select the text above and copy it manually.";}});});
+
+/* ---------- Contact: copy / download (no fake send) ---------- */
+function contactText(){return "To: jackefraser96@gmail.com\nName: "+$("c-name").value+"\nTopic: "+$("c-topic").value+"\n\n"+$("c-msg").value;}
+$("c-copy").addEventListener("click",function(){var t=contactText();var done=function(){$("c-status").textContent="Message copied — paste it into your email app and send it.";};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done).catch(function(){$("c-status").textContent="Copy was blocked by the browser — use Download instead.";});}else{$("c-status").textContent="Copy is not available here — use Download instead.";}});
+$("c-download").addEventListener("click",function(){var blob=new Blob([contactText()],{type:"text/plain"});var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="message.txt";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href);},2000);$("c-status").textContent="Message downloaded as message.txt — attach it to your email.";});
+
+/* ---------- Init ---------- */
+showPage();
+calcMortgage();calcLoan();calcInvest();calcTax();calcBudget();calcTip();calcPercent();calcBMI();
+})();
+</script>
+</body>
+</html>
