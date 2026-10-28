@@ -22,7 +22,7 @@
 <meta name="twitter:card" content="summary" />
 <meta id="tw-title" name="twitter:title" content="Free Finance Calculators — Mortgage, Loan, Tax & More" />
 <meta id="tw-desc" name="twitter:description" content="Free US finance calculators with formulas & worked examples. Instant results in USD, no sign-up." />
-<link rel="icon" href="data:," />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b5fff'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='white'%3E%24%3C/text%3E%3C/svg%3E" />
 <title>Free Finance Calculators — Mortgage, Loan, Tax & More</title>
 <style>
 :root{--bg:#f8f9f8;--surface:#ffffff;--surface-2:#f2f5f2;--ink:#17211a;--ink-soft:#4a5a4f;--muted:#687a6e;--line:#e2e8e2;--green:#177245;--green-deep:#14532d;--green-soft:#e6f4ea;--gold-soft:#fdf6e0;--red:#b3402e;--radius:14px}
@@ -46,7 +46,7 @@ a{color:var(--green)}
 .intro h1 em{font-style:normal;color:var(--green)}
 .lede{font-size:16px;color:var(--ink-soft);max-width:60ch;margin:0 auto}
 .trust{margin-top:10px;font-size:13.5px;color:var(--muted);font-weight:600}.trust span{margin:0 6px}
-.page-head{padding:8px 0 4px}.page-head h1{font-size:clamp(26px,3.6vw,36px);line-height:1.15;letter-spacing:-.02em;margin:0 0 6px}.page-head p{color:var(--ink-soft);margin:0;max-width:65ch}
+.page-head{padding:8px 0 4px}.page-head h1,.page-head h2{font-size:clamp(26px,3.6vw,36px);line-height:1.15;letter-spacing:-.02em;margin:0 0 6px}.page-head p{color:var(--ink-soft);margin:0;max-width:65ch}
 /* Cards grid — home */
 .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:24px 0 8px}
 @media(max-width:640px){.cards{grid-template-columns:1fr}}
@@ -173,7 +173,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= MORTGAGE PAGE ================= -->
 <section class="page-view" id="page-mortgage">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Mortgage Calculator</p>
-  <div class="page-head"><h1>Mortgage Calculator</h1><p>See your real monthly payment — including property tax, home insurance, HOA and PMI.</p></div>
+  <div class="page-head"><h2>Mortgage Calculator</h1><p>See your real monthly payment — including property tax, home insurance, HOA and PMI.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="field"><label for="m-price">Home price</label><div class="input-row"><span class="prefix">$</span><input id="m-price" type="number" inputmode="decimal" value="425000" min="0" step="1000"></div><input type="range" id="m-price-r" min="50000" max="1500000" step="5000" value="425000" aria-label="Home price slider"></div>
@@ -212,7 +212,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= LOAN PAGE ================= -->
 <section class="page-view" id="page-loan">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Loan Calculator</p>
-  <div class="page-head"><h1>Loan Calculator</h1><p>Monthly payment &amp; total interest for auto, personal or student loans.</p></div>
+  <div class="page-head"><h2>Loan Calculator</h1><p>Monthly payment &amp; total interest for auto, personal or student loans.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="field"><label for="l-amt">Loan amount</label><div class="input-row"><span class="prefix">$</span><input id="l-amt" type="number" inputmode="decimal" value="25000" min="0" step="500"></div><input type="range" id="l-amt-r" min="1000" max="150000" step="500" value="25000" aria-label="Loan amount slider"></div>
@@ -236,7 +236,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= INVESTMENT PAGE ================= -->
 <section class="page-view" id="page-invest">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Investment Growth</p>
-  <div class="page-head"><h1>Investment Growth Calculator</h1><p>See how your money grows with compound interest over time.</p></div>
+  <div class="page-head"><h2>Investment Growth Calculator</h1><p>See how your money grows with compound interest over time.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="two-col"><div class="field"><label for="i-init">Starting amount</label><div class="input-row"><span class="prefix">$</span><input id="i-init" type="number" inputmode="decimal" value="10000" min="0" step="500"></div></div>
@@ -259,7 +259,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= TAX PAGE ================= -->
 <section class="page-view" id="page-tax">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Income Tax Estimator</p>
-  <div class="page-head"><h1>Income Tax Estimator — 2025</h1><p>2025 federal tax &amp; take-home pay. State tax is not included.</p></div>
+  <div class="page-head"><h2>Income Tax Estimator — 2025</h1><p>2025 federal tax &amp; take-home pay. State tax is not included.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="field"><label for="t-income">Gross annual income</label><div class="input-row"><span class="prefix">$</span><input id="t-income" type="number" inputmode="decimal" value="85000" min="0" step="1000"></div><input type="range" id="t-income-r" min="10000" max="400000" step="1000" value="85000" aria-label="Income slider"></div>
@@ -280,7 +280,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= BUDGET PAGE ================= -->
 <section class="page-view" id="page-budget">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; 50/30/20 Budget</p>
-  <div class="page-head"><h1>50/30/20 Budget Calculator</h1><p>Split take-home pay: 50% needs · 30% wants · 20% savings.</p></div>
+  <div class="page-head"><h2>50/30/20 Budget Calculator</h1><p>Split take-home pay: 50% needs · 30% wants · 20% savings.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="field"><label for="b-income">Monthly take-home pay</label><div class="input-row"><span class="prefix">$</span><input id="b-income" type="number" inputmode="decimal" value="5200" min="0" step="100"></div><input type="range" id="b-income-r" min="1000" max="20000" step="100" value="5200" aria-label="Take-home pay slider"></div>
@@ -301,7 +301,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= TIP PAGE ================= -->
 <section class="page-view" id="page-tip">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Tip Calculator</p>
-  <div class="page-head"><h1>Tip Calculator</h1><p>Calculate the tip and split the bill in seconds.</p></div>
+  <div class="page-head"><h2>Tip Calculator</h1><p>Calculate the tip and split the bill in seconds.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="field"><label for="p-bill">Bill amount</label><div class="input-row"><span class="prefix">$</span><input id="p-bill" type="number" inputmode="decimal" value="86.40" min="0" step="1"></div></div>
@@ -321,7 +321,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= PERCENT PAGE ================= -->
 <section class="page-view" id="page-percent">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Percentage Calculator</p>
-  <div class="page-head"><h1>Percentage Calculator</h1><p>Percent of a number, percent change, and discounts — instantly.</p></div>
+  <div class="page-head"><h2>Percentage Calculator</h1><p>Percent of a number, percent change, and discounts — instantly.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="field"><label>1 · What is <span class="hint">X% of Y?</span></label><div class="two-col"><div class="input-row"><input id="pc-a-pct" type="number" inputmode="decimal" value="20" step="1"><span class="suffix">%</span></div><div class="input-row"><span class="prefix">of</span><input id="pc-a-of" type="number" inputmode="decimal" value="250" step="1"></div></div></div>
@@ -342,7 +342,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= BMI PAGE ================= -->
 <section class="page-view" id="page-bmi">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; BMI Calculator</p>
-  <div class="page-head"><h1>BMI Calculator</h1><p>Check your BMI and the healthy weight range for your height.</p></div>
+  <div class="page-head"><h2>BMI Calculator</h1><p>Check your BMI and the healthy weight range for your height.</p></div>
   <div class="calc"><div class="calc-grid">
     <div class="inputs">
       <div class="field"><label>Your height</label><div class="two-col"><div class="input-row"><input id="bm-ft" type="number" inputmode="numeric" value="5" min="0" max="8" step="1"><span class="suffix">ft</span></div><div class="input-row"><input id="bm-in" type="number" inputmode="decimal" value="9" min="0" max="11.9" step="0.5"><span class="suffix">in</span></div></div></div>
@@ -363,7 +363,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= ABOUT ================= -->
 <section class="page-view" id="page-about">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; About</p>
-  <div class="page-head"><h1>About</h1><p>Free, simple finance calculators for a US audience — each one on its own page, with the formula shown so you can check the result yourself.</p></div>
+  <div class="page-head"><h2>About</h1><p>Free, simple finance calculators for a US audience — each one on its own page, with the formula shown so you can check the result yourself.</p></div>
   <div class="content prose">
     <h2>What this site is</h2><p>A collection of everyday calculators: mortgage, loan, investment growth, federal income tax, budgeting, tip, percentage and BMI. Every tool is free, needs no sign-up, and gives an instant result in US dollars.</p>
     <h2>How accuracy is handled</h2><ul><li>Mortgage and loan payments use the standard amortization formula used by lenders.</li><li>The tax estimator uses published 2025 IRS federal brackets and standard deductions, plus FICA rates (Social Security 6.2% up to $176,100; Medicare 1.45%).</li><li>Investment growth uses monthly compounding.</li><li>BMI uses the standard 703 formula and CDC adult categories.</li><li>Each calculator page shows its formula and a worked example with the default numbers, so the result can be verified by hand.</li></ul>
@@ -375,7 +375,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= CONTACT ================= -->
 <section class="page-view" id="page-contact">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Contact</p>
-  <div class="page-head"><h1>Contact</h1><p>Found a wrong result, a broken page, or want a new calculator? Email us directly or prepare your message below.</p></div>
+  <div class="page-head"><h2>Contact</h1><p>Found a wrong result, a broken page, or want a new calculator? Email us directly or prepare your message below.</p></div>
   <div class="content">
     <div style="background:var(--green-soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:18px">
       <p style="margin:0 0 4px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--green)">Official contact email</p>
@@ -397,7 +397,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= ARTICLES GUIDE ================= -->
 <section class="page-view" id="page-articles">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Articles Guide</p>
-  <div class="page-head"><h1>Can You Write Articles About These Calculators? — Yes</h1><p>Short answer: <strong>Ji, bilkul likh sakte hain</strong> — aur likhne chahiye. Sirf calculator page Google me mushkil se rank karta hai; us ke saath helpful article/guide ho to ranking, traffic aur AdSense approval teeno ka chance barh jata hai.</p></div>
+  <div class="page-head"><h2>Can You Write Articles About These Calculators? — Yes</h1><p>Short answer: <strong>Ji, bilkul likh sakte hain</strong> — aur likhne chahiye. Sirf calculator page Google me mushkil se rank karta hai; us ke saath helpful article/guide ho to ranking, traffic aur AdSense approval teeno ka chance barh jata hai.</p></div>
   <div class="content prose">
     <h2>1. Kyun articles zaroori hain?</h2>
     <p>Calculator ek tool hai — user number daal kar chala jata hai. Article usi topic ko samjhata hai: formula kya hai, result ka matlab kya hai, aam ghalti kya hoti hai. Google aise pages ko pasand karta hai jin me tool + explanation dono hon. Isi liye har calculator page par pehle se formula aur worked example diya gaya hai — article usi ko bara, alag page bana deta hai.</p>
@@ -441,7 +441,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var
 <!-- ================= GO-LIVE SETUP ================= -->
 <section class="page-view" id="page-setup">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Go-Live Setup</p>
-  <div class="page-head"><h1>Go-Live Setup — Unresolved Issues Fixed as Far as a Single File Allows</h1><p>Neeche har unresolved issue ka status saaf likha hai — kya is file me fix ho gaya, aur kya sirf domain/hosting par hi ho sakta hai, us ke ready files ke saath.</p></div>
+  <div class="page-head"><h2>Go-Live Setup — Unresolved Issues Fixed as Far as a Single File Allows</h1><p>Neeche har unresolved issue ka status saaf likha hai — kya is file me fix ho gaya, aur kya sirf domain/hosting par hi ho sakta hai, us ke ready files ke saath.</p></div>
   <div class="content prose">
     <h2>✅ Fixed in this update</h2>
     <ul>
@@ -493,7 +493,7 @@ Sitemap: https://khanjaansher96-debug.github.io/finance-calculator-tool-website/
 <!-- ================= PRIVACY ================= -->
 <section class="page-view" id="page-privacy">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Privacy Policy</p>
-  <div class="page-head"><h1>Privacy Policy</h1><p>Last updated: October 27, 2026</p></div>
+  <div class="page-head"><h2>Privacy Policy</h1><p>Last updated: October 27, 2026</p></div>
   <div class="content prose">
     <h2>What we collect</h2><p>Nothing. These calculators run entirely in your browser. The numbers you type are never saved, stored, or sent to a server by this site, and there is no sign-up, account, or user database.</p>
     <h2>Cookies</h2><p>This site itself sets no cookies. If advertising (such as Google AdSense) or analytics are added in the future, those third-party services may set their own cookies to serve and measure ads or visits, under their own privacy policies. This page will be updated before or when that happens.</p>
@@ -508,7 +508,7 @@ Sitemap: https://khanjaansher96-debug.github.io/finance-calculator-tool-website/
 <!-- ================= DISCLAIMER ================= -->
 <section class="page-view" id="page-disclaimer">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Disclaimer</p>
-  <div class="page-head"><h1>Disclaimer</h1><p>Last updated: October 27, 2026</p></div>
+  <div class="page-head"><h2>Disclaimer</h1><p>Last updated: October 27, 2026</p></div>
   <div class="content prose">
     <h2>Estimates only</h2><p>Every result on this site is an estimate provided for general education. Calculators use standard formulas and published 2025 US federal figures, but your real mortgage, loan, tax, investment or health outcome depends on details a simple calculator cannot capture.</p>
     <h2>Not professional advice</h2><ul><li><b>Not financial advice:</b> mortgage, loan, budget and investment results do not consider your full financial situation.</li><li><b>Not tax advice:</b> the tax estimator excludes state tax, credits, and the 0.9% additional Medicare tax above the statutory thresholds. Verify at IRS.gov or with a tax professional.</li><li><b>Not medical advice:</b> BMI is a screening measure only and is not a diagnosis.</li></ul>
@@ -519,7 +519,7 @@ Sitemap: https://khanjaansher96-debug.github.io/finance-calculator-tool-website/
 <!-- ================= TERMS ================= -->
 <section class="page-view" id="page-terms">
   <p class="crumb"><a href="#/">← All Calculators</a> &nbsp;/&nbsp; Terms of Use</p>
-  <div class="page-head"><h1>Terms of Use</h1><p>Last updated: October 27, 2026</p></div>
+  <div class="page-head"><h2>Terms of Use</h1><p>Last updated: October 27, 2026</p></div>
   <div class="content prose">
     <h2>Using the calculators</h2><p>The calculators on this site are free for personal use. By using them you agree that results are estimates for education only (see the <a href="#/disclaimer">Disclaimer</a>) and that decisions you make based on them are your own responsibility.</p>
     <h2>Acceptable use</h2><ul><li>Do not attempt to disrupt, overload, or misuse the site.</li><li>Do not present results from this site as a lender quote, official tax figure, or professional advice.</li></ul>
