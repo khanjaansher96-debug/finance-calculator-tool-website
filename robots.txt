@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://khanjaansher96-debug.github.io/finance-calculator-tool-website/sitemap.xml
